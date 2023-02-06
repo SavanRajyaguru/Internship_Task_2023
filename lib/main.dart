@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project1/screens/feb2_screen/splash_screen_2Feb.dart';
 import 'package:project1/screens/feb3_screen/phone_directory_screen_feb3.dart';
+import 'package:project1/screens/feb6_screen/custom_widget_demo.dart';
 
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: CustomWidgetDemo(),
     );
   }
 }
