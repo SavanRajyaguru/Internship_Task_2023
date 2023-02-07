@@ -4,6 +4,7 @@ import 'package:project1/screens/feb2_screen/splash_screen_2Feb.dart';
 import 'package:project1/screens/feb3_screen/phone_directory_screen_feb3.dart';
 import 'package:project1/screens/feb6_screen/custom_widget_demo.dart';
 import 'package:project1/screens/feb7_screen/animation_demo.dart';
+import 'package:project1/screens/feb7_screen/todos_screen.dart';
 
 
 void main() {
@@ -15,9 +16,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AnimationDemo(),
+      initialRoute: '/displayTodo',
+      routes: {
+        '/animationDemo': (context) => const AnimationDemo(),
+        '/displayTodo' : (context) => const DisplayTodos(),
+        '/splashScreen' : (context) => const SplashScreen(),
+      },
+      // home: AnimationDemo(),
     );
   }
 }
