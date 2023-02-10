@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:project1/screens/feb10_screen/widget/PostListView.dart';
 
 import 'package:project1/screens/feb2_screen/splash_screen_2Feb.dart';
 import 'package:project1/screens/feb3_screen/phone_directory_screen_feb3.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
       //   '/splashScreen' : (context) => const SplashScreen(),
       //   '/setStateDemo' : (context) => const StateDemo(),
       // },
-      home: CounterPage(),
+      home: PostListView(),
     );
   }
 }
