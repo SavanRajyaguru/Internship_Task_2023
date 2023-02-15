@@ -104,6 +104,12 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "get",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/get-4.6.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
       "name": "http",
       "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.5",
       "packageUri": "lib/",
@@ -308,7 +314,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-02-10T10:41:05.225845Z",
+  "generated": "2023-02-15T08:56:26.984373Z",
   "generator": "pub",
   "generatorVersion": "2.18.6"
 }
