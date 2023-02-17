@@ -19,7 +19,7 @@ class CartScreen extends StatelessWidget {
             child: GetX<CartController>(
               builder: (controller) {
                 return ListView.builder(
-                  itemCount: controller.cardItems!.length,
+                  itemCount: controller.cartItems.length,
                   itemBuilder: (context, index) {
                     return Card(
                       elevation: 5,
@@ -36,21 +36,21 @@ class CartScreen extends StatelessWidget {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      controller.cardItems![index].productName,
+                                      controller.cartItems[index].productName,
                                       style: const TextStyle(fontSize: 22.0),
                                     ),
-                                    Text(controller.cardItems![index].productDescription),
+                                    Text(controller.cartItems[index].productDescription),
                                   ],
                                 ),
                                 Text(
-                                  controller.cardItems![index].itemCount.toString(),
+                                  controller.cartItems[index].itemCount.toString(),
                                   style: const TextStyle(fontSize: 22.0),
                                 ),
                               ],
                             ),
                             const SizedBox(height: 10.0,),
                             Text(
-                              "Total: \$${controller.cardItems![index].price}",
+                              "Total: \$${controller.cartItems[index].price}",
                               style: const TextStyle(fontSize: 24.0),
                             ),
                           ],

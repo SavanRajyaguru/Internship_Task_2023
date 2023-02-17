@@ -1,26 +1,41 @@
 import 'package:get/get.dart';
+import 'package:project1/screens/feb16_screen/controller/shopping_controller.dart';
 import 'package:project1/screens/feb16_screen/model/product.dart';
 
 class CartController extends GetxController {
-  var cardItems = <Product>[].obs;
+  var cartItems = <Product>[].obs;
+  final shoppingController = Get.put(ShoppingController());
 
-  double get totalPrice => cardItems!.fold(0, (sum, item) => sum + item.price);
+  double get totalPrice => cartItems.fold(0, (sum, item) => sum + item.price);
+
+  int cartCount(Product product) {
+
+    for(int i = 0; i < cartItems.length; i++){
+      if(cartItems[i].id == product.id){
+        print("Id: ${product.id}, cartId: ${cartItems[i].id}");
+        print("cartItems: ${cartItems[i].itemCount}");
+        return cartItems[i].itemCount;
+      }
+    }
+
+    return 0;
+  }
 
   addToCart(Product product) {
 
     bool isItemFound = false;
 
 
-    if(cardItems!.isEmpty){
-      cardItems!.add(product);
+    if(cartItems.isEmpty){
+      cartItems.add(product);
     } else {
 
-      for(int i = 0; i < cardItems!.length; i++){
-        if(cardItems![i].id == product.id){
+      for(int i = 0; i < cartItems.length; i++){
+        if(cartItems[i].id == product.id){
           print("====== found");
           isItemFound = true;
-          double currentProductTotalPrice = cardItems![i].price + product.price;
-          int totalItemCount = cardItems![i].itemCount + 1;
+          double currentProductTotalPrice = cartItems[i].price + product.price;
+          int totalItemCount = cartItems[i].itemCount + 1;
           print(totalItemCount);
           var newItem = Product(
               id: product.id,
@@ -31,12 +46,12 @@ class CartController extends GetxController {
               itemCount: totalItemCount,
           );
 
-          cardItems![i] = newItem;
+          cartItems[i] = newItem;
           break;
         }
       }
       if(!isItemFound){
-        cardItems!.add(product);
+        cartItems.add(product);
       }
     }
     // if(cardItems.isNotEmpty && !isItemFound){

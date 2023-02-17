@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:project1/screens/feb16_screen/controller/cart_controller.dart';
 import 'package:project1/screens/feb16_screen/controller/shopping_controller.dart';
 import 'package:project1/screens/feb16_screen/screen/cart_screen.dart';
+import 'package:badges/badges.dart' as badges;
 
 class ShoppingScreen extends StatelessWidget {
   const ShoppingScreen({Key? key}) : super(key: key);
@@ -53,11 +54,9 @@ class ShoppingScreen extends StatelessWidget {
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                // Text(cartController.cardItems[0]?.itemCount.toString() ?? "Demo" ),
                                 GetX<CartController>(builder: (controller) {
-                                  // return Text(controller.cardItems?[index].itemCount.toString() ?? '0');
                                   return Text(
-                                      "Item Count: ${controller.cardItems.isEmpty ? '0' : controller.cardItems[index].itemCount.toString()}");
+                                      "Item Count: ${controller.cartItems.isEmpty ? '0' : controller.cartCount(shoppingController.products[index]).toString()}");
                                 }),
                                 ElevatedButton(
                                     onPressed: () {
@@ -87,21 +86,33 @@ class ShoppingScreen extends StatelessWidget {
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton.extended(
-        backgroundColor: Colors.amber,
-        onPressed: () {
-          Get.to(const CartScreen());
-        },
-        icon: const Icon(
-          Icons.add_shopping_cart_rounded,
-          color: Colors.black,
-        ),
-        label: GetX<CartController>(builder: (controller) {
+      floatingActionButton: badges.Badge(
+        badgeContent: GetX<CartController>(builder: (controller) {
           return Text(
-            controller.cardItems!.length.toString(),
+            controller.cartItems.length.toString(),
             style: const TextStyle(fontSize: 16.0, color: Colors.black),
           );
         }),
+        badgeStyle: const badges.BadgeStyle(
+          badgeColor: Colors.orangeAccent
+        ),
+        badgeAnimation: const badges.BadgeAnimation.slide(
+          animationDuration: Duration(seconds: 1),
+          colorChangeAnimationDuration: Duration(seconds: 1),
+          loopAnimation: false,
+          curve: Curves.fastOutSlowIn,
+          colorChangeAnimationCurve: Curves.easeInCubic,
+        ),
+        child: FloatingActionButton(
+          backgroundColor: Colors.white,
+          onPressed: () {
+            Get.to(const CartScreen());
+          },
+          child: const Icon(
+            Icons.add_shopping_cart_rounded,
+            color: Colors.black,
+          ),
+        ),
       ),
     );
   }
