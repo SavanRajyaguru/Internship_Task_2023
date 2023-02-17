@@ -9,6 +9,7 @@ import 'package:project1/screens/feb14_screen/widget/Counter3_Screen.dart';
 import 'package:project1/screens/feb14_screen/widget/Counter_Screen.dart';
 import 'package:project1/screens/feb15_screen/counter_HomeScreen.dart';
 import 'package:project1/screens/feb16_screen/screen/shopping_cart_screen.dart';
+import 'package:project1/screens/feb17_screen/screen/iteam_screen.dart';
 
 import 'package:project1/screens/feb2_screen/splash_screen_2Feb.dart';
 import 'package:project1/screens/feb3_screen/phone_directory_screen_feb3.dart';
@@ -25,7 +26,7 @@ void main() {
   // runApp(const MyApp());
   runApp(const GetMaterialApp(
     debugShowCheckedModeBanner: false,
-    home: ShoppingScreen(),
+    home: ItemScreen(),
   ));
 }
 
