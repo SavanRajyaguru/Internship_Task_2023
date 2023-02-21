@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:project1/screens/feb2_screen/login_screen_2Feb.dart';
 import 'package:project1/screens/feb3_screen/widgets/custom_Appbar.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class SettingScreen extends StatelessWidget {
   const SettingScreen({Key? key}) : super(key: key);
@@ -19,7 +21,13 @@ class SettingScreen extends StatelessWidget {
             buildCardMenu('Edit User Information', Icons.edit),
             buildCardMenu('Reset Password', Icons.arrow_forward_ios),
             buildCardMenu('Reset Application', Icons.arrow_forward_ios),
-            buildCardMenu('Log Out', Icons.arrow_forward_ios),
+            GestureDetector(
+              onTap: () async {
+                SharedPreferences prefs = await SharedPreferences.getInstance();
+                await prefs.clear();
+                Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => LoginScreen2Feb()));
+              },
+                child: buildCardMenu('Log Out', Icons.arrow_forward_ios)),
           ],
         ),
       ),

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:email_validator/email_validator.dart';
 import 'package:project1/screens/Week1_Tasks/demo_screen_31Jan.dart';
 import 'package:project1/screens/feb3_screen/phone_directory_screen_feb3.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class LoginScreen2Feb extends StatefulWidget {
@@ -23,6 +24,12 @@ class _LoginScreen2FebState extends State<LoginScreen2Feb> {
     emailController.dispose();
     passwordController.dispose();
     super.dispose();
+  }
+
+  addEmailToSF() async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString('email', emailController.text);
+    print(prefs.getString('email'));
   }
 
   @override
@@ -90,9 +97,16 @@ class _LoginScreen2FebState extends State<LoginScreen2Feb> {
                 child: Padding(
                   padding: const EdgeInsets.only(top: 50.0),
                   child: ElevatedButton(
-                    onPressed: () {
-                      if(_formKey.currentState!.validate()){
+                    onPressed: () async {
+
+                      if(_formKey.currentState!.validate()) {
                         _formKey.currentState!.save();
+
+                        // shared Preference
+                        SharedPreferences prefs = await SharedPreferences.getInstance();
+                        await prefs.setString('email', emailController.text);
+                        print(prefs.getString('email'));
+
                         Navigator.push(context, MaterialPageRoute(builder: (context) => const PhoneScreen()));
                       }
                     },
@@ -190,7 +204,10 @@ class _LoginScreen2FebState extends State<LoginScreen2Feb> {
           validator: (value) {
             if(value!.isEmpty){
               return 'Please enter password';
+            } else if(value.length < 6){
+              return 'Enter password more then six character';
             }
+            return null;
           },
           decoration: InputDecoration(
               hintText: " $hintText",

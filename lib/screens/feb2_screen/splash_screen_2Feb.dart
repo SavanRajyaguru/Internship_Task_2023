@@ -2,6 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:project1/screens/feb2_screen/login_screen_2Feb.dart';
+import 'package:project1/screens/feb3_screen/phone_directory_screen_feb3.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -11,12 +13,26 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
+  String? email;
 
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    Timer(const Duration(seconds: 3), () => Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const LoginScreen2Feb())));
+    getValidationEmail().whenComplete(() async {
+      Timer(
+          const Duration(seconds: 3),
+          () => Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => email == null ? const LoginScreen2Feb() : const PhoneScreen())));
+    });
+  }
+
+  Future<void> getValidationEmail() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    email = prefs.getString('email');
+    print(email);
   }
 
   @override
@@ -30,8 +46,17 @@ class _SplashScreenState extends State<SplashScreen> {
               child: Center(
                 child: Column(
                   children: const [
-                    Text("Welcome to", style: TextStyle(fontSize: 20.0, color: Colors.black),),
-                    Text("Digihappy", style: TextStyle(fontSize: 30.0, color: Colors.deepPurple, fontWeight: FontWeight.bold),)
+                    Text(
+                      "Welcome to",
+                      style: TextStyle(fontSize: 20.0, color: Colors.black),
+                    ),
+                    Text(
+                      "Digihappy",
+                      style: TextStyle(
+                          fontSize: 30.0,
+                          color: Colors.deepPurple,
+                          fontWeight: FontWeight.bold),
+                    )
                   ],
                 ),
               ),
