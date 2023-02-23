@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:get/get.dart';
 import 'package:project1/firebase_options.dart';
 import 'package:project1/router/app_router.dart';
@@ -27,45 +28,36 @@ import 'package:project1/screens/feb9_screen/Widget/counter_screen.dart';
 
 import 'screens/feb14_screen/cubit/counter_cubit.dart';
 
+@pragma('vm:entry-point')
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   // If you're going to use other Firebase services in the background, such as Firestore,
   // make sure you call `initializeApp` before using other Firebase services.
   await Firebase.initializeApp();
-
   print("Handling a background message: ${message.messageId}");
 }
 
+
+
 void main() async {
   // runApp(const MyApp());
-
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
+    // options: DefaultFirebaseOptions.currentPlatform,
   );
-  FirebaseMessaging messaging = FirebaseMessaging.instance;
+
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
-  NotificationSettings settings = await messaging.requestPermission(
-    alert: true,
-    announcement: false,
-    badge: true,
-    carPlay: false,
-    criticalAlert: false,
-    provisional: false,
-    sound: true,
-  );
-
-  print('User granted permission: ${settings.authorizationStatus}');
-  FirebaseMessaging.onMessage.listen((RemoteMessage message) {
-    print('Got a message whilst in the foreground!');
-    print('Message data: ${message.data}');
-
-    if (message.notification != null) {
-      print('Message also contained a notification: ${message.notification}');
-    }
-  });
+  // FirebaseMessaging.onMessage.listen((RemoteMessage message) {
+  //   print('Got a message whilst in the foreground!');
+  //   print('Message data: ${message.data}');
+  //
+  //   if (message.notification != null) {
+  //     // final snackBar = SnackBar(content: Text(message.notification?.title ?? ""));
+  //     // ScaffoldMessenger.of(context).showSnackBar(snackBar);
+  //     print('Message also contained a notification: ${message.notification}');
+  //   }
+  // });
   runApp(const GetMaterialApp(
-    debugShowCheckedModeBanner: false,
-    home: SplashScreen(),
+    home: MyApp(),
   ));
 }
 
@@ -77,32 +69,104 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  String? mtoken = "";
   final CounterCubit _counterCubit = CounterCubit();
   final AppRouter _appRouter = AppRouter();
 
   @override
+  void initState() {
+    // TODO: implement initState
+    requestPermission();
+    FirebaseMessaging.onMessage.listen((RemoteMessage message) {
+      print('Got a message whilst in the foreground!');
+      print('Message data: ${message.data}');
+
+      if (message.notification != null) {
+        // final snackBar = SnackBar(content: Text(message.notification?.title ?? ""));
+        // ScaffoldMessenger.of(context).showSnackBar(snackBar);
+        print('Message also contained a notification: ${message.notification}');
+      }
+    });
+    getToken();
+    messageHandler();
+    super.initState();
+  }
+
+  Future<void> messageHandler() async {
+
+    AndroidNotificationChannel channel = const AndroidNotificationChannel(
+      'high_importance_channel', // id
+      'High Importance Notifications', // title
+      // 'This channel is used for important notifications.', // description
+      importance: Importance.max,
+    );
+
+    final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
+
+    await flutterLocalNotificationsPlugin
+        .resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>()
+        ?.createNotificationChannel(channel);
+    await FirebaseMessaging.instance
+        .setForegroundNotificationPresentationOptions(
+      alert: true,
+      badge: true,
+      sound: true,
+    );
+  }
+  void requestPermission() async{
+    FirebaseMessaging messaging = FirebaseMessaging.instance;
+
+    NotificationSettings settings = await messaging.requestPermission(
+      alert: true,
+      announcement: false,
+      badge: true,
+      carPlay: false,
+      criticalAlert: false,
+      provisional: false,
+      sound: true,
+    );
+
+    if(settings.authorizationStatus == AuthorizationStatus.authorized) {
+      print('User granted permission: ${settings.authorizationStatus}');
+    } else if(settings.authorizationStatus == AuthorizationStatus.provisional){
+      print("User granted provisional permission");
+    } else {
+      print("User denied");
+    }
+  }
+
+  void getToken() async{
+    await FirebaseMessaging.instance.getToken().then((token) {
+      setState(() {
+        mtoken = token;
+        print("Token>>>>>>>>> $mtoken");
+      });
+    });
+  }
+  @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
+      home: SplashScreen(),
       // onGenerateRoute: _appRouter.onGenerateRoute,
-      routes: {
-        '/': (context) => BlocProvider.value(
-              value: _counterCubit,
-              child: CounterScreen(),
-            ),
-        '/secondCounter': (context) => BlocProvider.value(
-              value: _counterCubit,
-              child: Counter2Screen(
-                color: Colors.red,
-              ),
-            ),
-        '/thirdCounter': (context) => BlocProvider.value(
-              value: _counterCubit,
-              child: Counter3Screen(
-                color: Colors.cyan,
-              ),
-            ),
-      },
+      // routes: {
+      //   '/': (context) => BlocProvider.value(
+      //         value: _counterCubit,
+      //         child: CounterScreen(),
+      //       ),
+      //   '/secondCounter': (context) => BlocProvider.value(
+      //         value: _counterCubit,
+      //         child: Counter2Screen(
+      //           color: Colors.red,
+      //         ),
+      //       ),
+      //   '/thirdCounter': (context) => BlocProvider.value(
+      //         value: _counterCubit,
+      //         child: Counter3Screen(
+      //           color: Colors.cyan,
+      //         ),
+      //       ),
+      // },
       // home: BlocProvider<CounterCubit>(
       //   create: (context) => CounterCubit(),
       //   child: const CounterScreen(),
