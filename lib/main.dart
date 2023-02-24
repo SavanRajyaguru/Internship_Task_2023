@@ -39,23 +39,102 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
 
 
 void main() async {
-  // runApp(const MyApp());
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    // options: DefaultFirebaseOptions.currentPlatform,
+  await Firebase.initializeApp();
+  final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
+
+  AndroidNotificationChannel channel = const AndroidNotificationChannel(
+    'high_importance_channel', // id
+    'High Importance Notifications', // title
+    // 'This channel is used for important notifications.', // description
+    importance: Importance.max,
+  );
+
+  const AndroidInitializationSettings initializationSettingsAndroid =  AndroidInitializationSettings('@mipmap/ic_launcher');
+
+  const InitializationSettings initializationSettings = InitializationSettings(
+    android: initializationSettingsAndroid,
+  );
+  await flutterLocalNotificationsPlugin.initialize(initializationSettings);
+
+  await flutterLocalNotificationsPlugin
+      .resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>()
+      ?.createNotificationChannel(channel);
+  await FirebaseMessaging.instance
+      .setForegroundNotificationPresentationOptions(
+    alert: true,
+    badge: true,
+    sound: true,
   );
 
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
-  // FirebaseMessaging.onMessage.listen((RemoteMessage message) {
-  //   print('Got a message whilst in the foreground!');
-  //   print('Message data: ${message.data}');
-  //
-  //   if (message.notification != null) {
-  //     // final snackBar = SnackBar(content: Text(message.notification?.title ?? ""));
-  //     // ScaffoldMessenger.of(context).showSnackBar(snackBar);
-  //     print('Message also contained a notification: ${message.notification}');
-  //   }
-  // });
+  FirebaseMessaging messaging = FirebaseMessaging.instance;
+
+  NotificationSettings settings = await messaging.requestPermission(
+    alert: true,
+    announcement: false,
+    badge: true,
+    carPlay: false,
+    criticalAlert: false,
+    provisional: false,
+    sound: true,
+  );
+
+  if(settings.authorizationStatus == AuthorizationStatus.authorized) {
+    print("User granted");
+    FirebaseMessaging.onMessage.listen((RemoteMessage message) {
+      print('Got a message whilst in the foreground!=====');
+      print('Message data: ${message.data}');
+
+      AndroidNotification? android = message.notification!.android;
+
+      if (message.notification != null && android != null) {
+        print('data found;=============>>>>>');
+            flutterLocalNotificationsPlugin.show(
+                message.notification.hashCode,
+                message.notification?.title,
+                message.notification?.body,
+                NotificationDetails(
+                  android: AndroidNotificationDetails(
+                    channel.id,
+                    channel.name,
+                    // channel.description,
+                    icon: android.smallIcon,
+                    // other properties...
+                  ),
+                ));
+        print('Message also contained a notification: ${message.notification}');
+      }
+    });
+    FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
+      print('Got a message whilst in the onMessageOpenedApp!');
+      print('Message data: ${message.data}');
+
+      AndroidNotification? android = message.notification!.android;
+
+      if (message.notification != null && android != null) {
+        print('data found;=============>>>>>');
+        flutterLocalNotificationsPlugin.show(
+            message.notification.hashCode,
+            message.notification?.title,
+            message.notification?.body,
+            NotificationDetails(
+              android: AndroidNotificationDetails(
+                channel.id,
+                channel.name,
+                // channel.description,
+                icon: android.smallIcon,
+                // other properties...
+              ),
+            ));
+        print('Message also contained a notification: ${message.notification}');
+      }
+    });
+  } else if(settings.authorizationStatus == AuthorizationStatus.provisional){
+    print("User granted provisional permission");
+  } else {
+    print("User denied");
+  }
   runApp(const GetMaterialApp(
     home: MyApp(),
   ));
@@ -76,65 +155,36 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     // TODO: implement initState
-    requestPermission();
-    FirebaseMessaging.onMessage.listen((RemoteMessage message) {
-      print('Got a message whilst in the foreground!');
-      print('Message data: ${message.data}');
-
-      if (message.notification != null) {
-        // final snackBar = SnackBar(content: Text(message.notification?.title ?? ""));
-        // ScaffoldMessenger.of(context).showSnackBar(snackBar);
-        print('Message also contained a notification: ${message.notification}');
-      }
-    });
     getToken();
-    messageHandler();
+    setupInteractedMessage();
     super.initState();
   }
 
-  Future<void> messageHandler() async {
+  Future<void> setupInteractedMessage() async {
+    // Get any messages which caused the application to open from
+    // a terminated state.
+    RemoteMessage? initialMessage =
+    await FirebaseMessaging.instance.getInitialMessage();
 
-    AndroidNotificationChannel channel = const AndroidNotificationChannel(
-      'high_importance_channel', // id
-      'High Importance Notifications', // title
-      // 'This channel is used for important notifications.', // description
-      importance: Importance.max,
-    );
-
-    final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
-
-    await flutterLocalNotificationsPlugin
-        .resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>()
-        ?.createNotificationChannel(channel);
-    await FirebaseMessaging.instance
-        .setForegroundNotificationPresentationOptions(
-      alert: true,
-      badge: true,
-      sound: true,
-    );
-  }
-  void requestPermission() async{
-    FirebaseMessaging messaging = FirebaseMessaging.instance;
-
-    NotificationSettings settings = await messaging.requestPermission(
-      alert: true,
-      announcement: false,
-      badge: true,
-      carPlay: false,
-      criticalAlert: false,
-      provisional: false,
-      sound: true,
-    );
-
-    if(settings.authorizationStatus == AuthorizationStatus.authorized) {
-      print('User granted permission: ${settings.authorizationStatus}');
-    } else if(settings.authorizationStatus == AuthorizationStatus.provisional){
-      print("User granted provisional permission");
-    } else {
-      print("User denied");
+    // If the message also contains a data property with a "type" of "chat",
+    // navigate to a chat screen
+    if (initialMessage != null) {
+      _handleMessage(initialMessage);
     }
+
+    // Also handle any interaction when the app is in the background via a
+    // Stream listener
+    FirebaseMessaging.onMessageOpenedApp.listen(_handleMessage);
   }
 
+  void _handleMessage(RemoteMessage message) {
+    print(">>>>>>>>>>>> ${message.data}");
+    // if (message.data['type'] == 'chat') {
+    //   Navigator.pushNamed(context, '/chat',
+    //     arguments: ChatArguments(message: message),
+    //   );
+    // }
+  }
   void getToken() async{
     await FirebaseMessaging.instance.getToken().then((token) {
       setState(() {
@@ -181,3 +231,21 @@ class _MyAppState extends State<MyApp> {
     super.dispose();
   }
 }
+
+class ChatArguments extends StatelessWidget {
+  RemoteMessage? message;
+  ChatArguments({Key? key, required this.message}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Notification"),
+      ),
+      body: Center(
+        child: Text(message!.toString(), style: const TextStyle(fontSize: 26.0),),
+      ),
+    );
+  }
+}
+
