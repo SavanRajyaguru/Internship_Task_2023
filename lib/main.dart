@@ -15,6 +15,7 @@ import 'package:project1/screens/feb15_screen/counter_HomeScreen.dart';
 import 'package:project1/screens/feb16_screen/screen/shopping_cart_screen.dart';
 import 'package:project1/screens/feb17_screen/screen/iteam_screen.dart';
 import 'package:project1/screens/feb20_screen/screen/post_request_demo.dart';
+import 'package:project1/screens/feb27_screen/screen/game_details_screen.dart';
 import 'package:project1/screens/feb2_screen/login_screen_2Feb.dart';
 
 import 'package:project1/screens/feb2_screen/splash_screen_2Feb.dart';
@@ -32,7 +33,9 @@ import 'screens/feb14_screen/cubit/counter_cubit.dart';
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   // If you're going to use other Firebase services in the background, such as Firestore,
   // make sure you call `initializeApp` before using other Firebase services.
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   print("Handling a background message: ${message.messageId}");
 }
 
@@ -177,7 +180,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: GameDetailScreen(),
       // onGenerateRoute: _appRouter.onGenerateRoute,
       // routes: {
       //   '/': (context) => BlocProvider.value(
