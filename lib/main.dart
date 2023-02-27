@@ -48,6 +48,7 @@ void main() async {
     'High Importance Notifications', // title
     // 'This channel is used for important notifications.', // description
     importance: Importance.max,
+    ledColor: Colors.red
   );
 
   const AndroidInitializationSettings initializationSettingsAndroid =  AndroidInitializationSettings('@mipmap/ic_launcher');
@@ -83,8 +84,8 @@ void main() async {
   if(settings.authorizationStatus == AuthorizationStatus.authorized) {
     print("User granted");
     FirebaseMessaging.onMessage.listen((RemoteMessage message) {
-      print('Got a message whilst in the foreground!=====');
-      print('Message data: ${message.data}');
+      print('Got a message whilst in the foreground');
+      print('Message data foreground: ${message.data} >>>>>>>> ${message.notification?.body}');
 
       AndroidNotification? android = message.notification!.android;
 
@@ -103,30 +104,6 @@ void main() async {
                     // other properties...
                   ),
                 ));
-        print('Message also contained a notification: ${message.notification}');
-      }
-    });
-    FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
-      print('Got a message whilst in the onMessageOpenedApp!');
-      print('Message data: ${message.data}');
-
-      AndroidNotification? android = message.notification!.android;
-
-      if (message.notification != null && android != null) {
-        print('data found;=============>>>>>');
-        flutterLocalNotificationsPlugin.show(
-            message.notification.hashCode,
-            message.notification?.title,
-            message.notification?.body,
-            NotificationDetails(
-              android: AndroidNotificationDetails(
-                channel.id,
-                channel.name,
-                // channel.description,
-                icon: android.smallIcon,
-                // other properties...
-              ),
-            ));
         print('Message also contained a notification: ${message.notification}');
       }
     });
@@ -178,6 +155,9 @@ class _MyAppState extends State<MyApp> {
   }
 
   void _handleMessage(RemoteMessage message) {
+      print('Got a message whilst in the onMessageOpenedApp!');
+      print('Message data: ${message.data}');
+      print('Message body: ${message.notification?.body}');
     print(">>>>>>>>>>>> ${message.data}");
     // if (message.data['type'] == 'chat') {
     //   Navigator.pushNamed(context, '/chat',
