@@ -3,14 +3,14 @@ import 'package:get/get.dart';
 import 'package:project1/screens/feb27_screen/models/game_detail_model.dart';
 import 'package:project1/screens/feb27_screen/services/game_services.dart';
 
-class GameDetailsController extends GetxController{
+class GameDetailsController extends GetxController {
   var gameList = <GameDetail>[].obs;
-  var demoList = <GameDetail>[].obs;
+  var foundData = <GameDetail>[];
   var isLoading = false.obs;
   var isScroll = false.obs;
   ScrollController controller = ScrollController();
+  TextEditingController searchController = TextEditingController();
   RxInt length = 3.obs;
-
 
   @override
   void onInit() {
@@ -20,14 +20,38 @@ class GameDetailsController extends GetxController{
     super.onInit();
   }
 
-  void addItem() async{
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    searchController.dispose();
+    super.dispose();
+  }
+
+  void searchName(String gameName, BuildContext context) {
+    print("GameName>>>>>>>>>>>>> $gameName Length>>> ${foundData.length}");
+    if (gameName.isEmpty) {
+      foundData = gameList;
+      FocusScope.of(context).unfocus();
+      update();
+    } else {
+      foundData = gameList
+          .where((element) => element.title
+              .toString()
+              .toLowerCase()
+              .contains(gameName.toLowerCase()))
+          .toList();
+      update();
+    }
+  }
+
+  void addItem() async {
     controller.addListener(() async {
-      if(controller.position.maxScrollExtent == controller.position.pixels){
+      if (controller.position.maxScrollExtent == controller.position.pixels) {
         isScroll(true);
         await Future.delayed(const Duration(seconds: 5));
-        int n = gameList.length;
-        for(int i = 0; i <= 3; i++){
-          if(length < n) {
+        int n = foundData.length;
+        for (int i = 0; i <= 3; i++) {
+          if (length < n) {
             length++;
             isScroll(false);
           } else {
@@ -38,13 +62,14 @@ class GameDetailsController extends GetxController{
     });
   }
 
-  void fetchGameDetails() async{
+  void fetchGameDetails() async {
     try {
       isLoading(true);
       var gameDetails = await GameServices.fetchGameInfo();
-      if(gameDetails != null){
+      if (gameDetails != null) {
         gameList.value = gameDetails;
-        demoList.value = gameDetails.sublist(0,10);
+        foundData = gameDetails;
+        update();
       }
       isLoading(false);
     } on Exception catch (e) {
