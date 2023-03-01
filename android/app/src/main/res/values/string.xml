@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    // for facebook login
+    <string name="app_name">project name</string>
+    <string name="facebook_app_id">project id</string>
+    <string name="fb_login_protocol_scheme">project name</string>
+    <string name="facebook_client_token">project token</string>
 </resources>
