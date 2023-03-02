@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project1/screens/feb2_screen/login_screen_2Feb.dart';
+import 'package:project1/screens/feb2_screen/services/authentication_services.dart';
 import 'package:project1/screens/feb3_screen/widgets/custom_Appbar.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -25,6 +26,8 @@ class SettingScreen extends StatelessWidget {
               onTap: () async {
                 SharedPreferences prefs = await SharedPreferences.getInstance();
                 await prefs.clear();
+                AuthenticationService().signOut();
+                AuthenticationService().fbSignOut();
                 Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => LoginScreen2Feb()));
               },
                 child: buildCardMenu('Log Out', Icons.arrow_forward_ios)),

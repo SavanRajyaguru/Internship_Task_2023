@@ -80,6 +80,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "facebook_auth_desktop",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/facebook_auth_desktop-0.0.8",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "fake_async",
       "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.3.1",
       "packageUri": "lib/",
@@ -96,6 +102,24 @@
       "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/file-6.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_auth",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-4.2.9",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_auth_platform_interface",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_platform_interface-6.11.11",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_auth_web",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-5.2.8",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
     },
     {
       "name": "firebase_core",
@@ -146,6 +170,24 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_facebook_auth",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_auth-5.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "flutter_facebook_auth_platform_interface",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_auth_platform_interface-4.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_facebook_auth_web",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_auth_web-4.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_lints",
       "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-2.0.1",
       "packageUri": "lib/",
@@ -182,6 +224,42 @@
       "languageVersion": "2.14"
     },
     {
+      "name": "flutter_secure_storage",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_secure_storage-7.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_linux",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_secure_storage_linux-1.1.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_macos",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_secure_storage_macos-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_platform_interface",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_secure_storage_platform_interface-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_web",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_secure_storage_web-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_secure_storage_windows",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_secure_storage_windows-1.1.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_staggered_grid_view",
       "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_staggered_grid_view-0.4.1",
       "packageUri": "lib/",
@@ -204,6 +282,42 @@
       "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/get-4.6.5",
       "packageUri": "lib/",
       "languageVersion": "2.15"
+    },
+    {
+      "name": "google_identity_services_web",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/google_identity_services_web-0.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "google_sign_in",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-6.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "google_sign_in_android",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_android-6.1.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "google_sign_in_ios",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_ios-5.5.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "google_sign_in_platform_interface",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_platform_interface-2.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "google_sign_in_web",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.11.0+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
     },
     {
       "name": "http",
@@ -244,6 +358,12 @@
     {
       "name": "image_picker_platform_interface",
       "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker_platform_interface-2.6.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "intl",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.17.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -336,6 +456,12 @@
       "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/provider-6.0.5",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "quiver",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-3.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
     },
     {
       "name": "shared_preferences",
@@ -512,7 +638,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-02-28T09:09:15.128575Z",
+  "generated": "2023-03-02T10:13:11.617031Z",
   "generator": "pub",
   "generatorVersion": "2.18.6"
 }

@@ -13,376 +13,625 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/debug/AndroidManifest.xml:7:5-66
-15-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/debug/AndroidManifest.xml:7:22-64
+15-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:6:5-66
+15-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:6:22-64
 16
 17    <queries>
-17-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:46:5-57:15
+17-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:71:5-82:15
 18
 19        <!-- If your app checks for SMS support -->
 20        <intent>
-20-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:48:9-51:18
+20-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:73:9-76:18
 21            <action android:name="android.intent.action.VIEW" />
-21-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:49:13-65
-21-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:49:21-62
+21-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:74:13-65
+21-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:74:21-62
 22
 23            <data android:scheme="sms" />
-23-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:50:13-42
-23-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:50:19-39
+23-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:75:13-42
+23-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:75:19-39
 24        </intent>
 25        <!-- If your app checks for call support -->
 26        <intent>
-26-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:53:9-56:18
+26-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:78:9-81:18
 27            <action android:name="android.intent.action.VIEW" />
-27-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:49:13-65
-27-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:49:21-62
+27-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:74:13-65
+27-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:74:21-62
 28
 29            <data android:scheme="tel" />
-29-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:50:13-42
-29-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:50:19-39
+29-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:75:13-42
+29-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:75:19-39
 30        </intent>
-31    </queries>
-32
-33    <uses-permission android:name="android.permission.WAKE_LOCK" />
-33-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-33-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
-34    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
-34-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-34-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
-35    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-35-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-77
-35-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-74
-36    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-36-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
-36-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
-37    <uses-permission android:name="android.permission.VIBRATE" />
-37-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
-37-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-63
-38    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
-38-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
-38-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
-39    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-39-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-79
-39-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-76
-40    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-40-->[com.google.firebase:firebase-iid:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2c8fd9b068f47c2305add24377b6833a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
-40-->[com.google.firebase:firebase-iid:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2c8fd9b068f47c2305add24377b6833a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
-41
-42    <application
-43        android:name="android.app.Application"
-44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-44-->[androidx.core:core:1.8.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/005627934cb5de51d804cd3c597f8200/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
-45        android:debuggable="true"
-46        android:icon="@mipmap/ic_launcher"
-47        android:label="project1"
-48        android:requestLegacyExternalStorage="true" >
-49        <meta-data
-50            android:name="com.google.firebase.messaging.default_notification_channel_id"
-51            android:value="@string/default_notification_channel_id" />
-52        <meta-data
-53            android:name="com.google.firebase.messaging.default_notification_channel_importance"
-54            android:value="high_importance_channel" />
-55
-56        <activity
-57            android:name="com.example.project1.MainActivity"
-58            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-59            android:exported="true"
-60            android:hardwareAccelerated="true"
-61            android:launchMode="singleTop"
-62            android:theme="@style/LaunchTheme"
-63            android:windowSoftInputMode="adjustResize" >
-64
-65            <!--
-66                 Specifies an Android theme to apply to this Activity as soon as
-67                 the Android process has started. This theme is visible to the user
-68                 while the Flutter UI initializes. After that, this theme continues
-69                 to determine the Window background behind the Flutter UI.
-70            -->
-71            <meta-data
-72                android:name="io.flutter.embedding.android.NormalTheme"
-73                android:resource="@style/NormalTheme" />
-74
-75            <intent-filter>
-76                <action android:name="android.intent.action.MAIN" />
-77
-78                <category android:name="android.intent.category.LAUNCHER" />
-79            </intent-filter>
-80            <intent-filter>
-81                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
-82
-83                <category android:name="android.intent.category.DEFAULT" />
-84            </intent-filter>
-85        </activity>
-86        <!--
-87             Don't delete the meta-data below.
-88             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-89        -->
-90        <meta-data
-91            android:name="flutterEmbedding"
-92            android:value="2" />
-93
-94        <service
-94-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-19:72
-95            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
-95-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-107
-96            android:exported="false"
-96-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
-97            android:permission="android.permission.BIND_JOB_SERVICE" />
-97-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-69
-98        <service
-98-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-26:19
-99            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
-99-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-97
-100            android:exported="false" >
-100-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
-101            <intent-filter>
-101-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
-102                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-102-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
-102-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
-103            </intent-filter>
-104        </service>
+31
+32        <package android:name="com.facebook.katana" />
+32-->[com.facebook.android:facebook-common:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/20f6c5d1d032d742f59b99379417243b/transformed/jetified-facebook-common-16.0.0/AndroidManifest.xml:18:9-55
+32-->[com.facebook.android:facebook-common:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/20f6c5d1d032d742f59b99379417243b/transformed/jetified-facebook-common-16.0.0/AndroidManifest.xml:18:18-52
+33    </queries>
+34
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+35-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+36-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+36-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+37    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+37-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-77
+37-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-74
+38    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+38-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+38-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+39    <uses-permission android:name="android.permission.VIBRATE" />
+39-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+39-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-63
+40    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+40-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+40-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
+41    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+41-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-79
+41-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-76
+42    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+42-->[com.google.firebase:firebase-iid:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2c8fd9b068f47c2305add24377b6833a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+42-->[com.google.firebase:firebase-iid:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2c8fd9b068f47c2305add24377b6833a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+43    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+43-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/35ac47069b0cef4d04dce8b2fdee5ca0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+43-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/35ac47069b0cef4d04dce8b2fdee5ca0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+44
+45    <application
+46        android:name="android.app.Application"
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.8.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/005627934cb5de51d804cd3c597f8200/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+48        android:debuggable="true"
+49        android:icon="@mipmap/ic_launcher"
+50        android:label="project1"
+51        android:requestLegacyExternalStorage="true"
+52        android:supportsRtl="true" >
+52-->[com.facebook.android:facebook-login:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/45187858254a80601436fda83ea96c75/transformed/jetified-facebook-login-16.0.0/AndroidManifest.xml:16:18-44
+53        <meta-data
+54            android:name="com.google.firebase.messaging.default_notification_channel_id"
+55            android:value="@string/default_notification_channel_id" />
+56        <meta-data
+57            android:name="com.google.firebase.messaging.default_notification_channel_importance"
+58            android:value="high_importance_channel" />
+59
+60        <activity
+61            android:name="com.example.project1.MainActivity"
+62            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+63            android:exported="true"
+64            android:hardwareAccelerated="true"
+65            android:launchMode="singleTop"
+66            android:theme="@style/LaunchTheme"
+67            android:windowSoftInputMode="adjustResize" >
+68
+69            <!--
+70                 Specifies an Android theme to apply to this Activity as soon as
+71                 the Android process has started. This theme is visible to the user
+72                 while the Flutter UI initializes. After that, this theme continues
+73                 to determine the Window background behind the Flutter UI.
+74            -->
+75            <meta-data
+76                android:name="io.flutter.embedding.android.NormalTheme"
+77                android:resource="@style/NormalTheme" />
+78
+79            <intent-filter>
+80                <action android:name="android.intent.action.MAIN" />
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+83            </intent-filter>
+84            <intent-filter>
+85                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+86
+87                <category android:name="android.intent.category.DEFAULT" />
+87-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+87-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+88            </intent-filter>
+89        </activity>
+90        <!--
+91             Don't delete the meta-data below.
+92             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+93        -->
+94        <meta-data
+95            android:name="flutterEmbedding"
+96            android:value="2" />
+97
+98        <!-- facebook config -->
+99        <meta-data
+100            android:name="com.facebook.sdk.ApplicationId"
+101            android:value="@string/facebook_app_id" />
+102        <meta-data
+103            android:name="com.facebook.sdk.ClientToken"
+104            android:value="@string/facebook_client_token" />
 105
-106        <receiver
-106-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-35:20
-107            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
-107-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-98
-108            android:exported="true"
-108-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-36
-109            android:permission="com.google.android.c2dm.permission.SEND" >
-109-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-73
-110            <intent-filter>
-110-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
-111                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-111-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
-111-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
-112            </intent-filter>
-113        </receiver>
-114
-115        <service
-115-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-41:19
-116            android:name="com.google.firebase.components.ComponentDiscoveryService"
-116-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:37:18-89
-117            android:directBootAware="true"
-117-->[com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
-118            android:exported="false" >
-118-->[com.google.firebase:firebase-iid:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2c8fd9b068f47c2305add24377b6833a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:31:13-37
-119            <meta-data
-119-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-40:85
-120                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
-120-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-128
-121                android:value="com.google.firebase.components.ComponentRegistrar" />
-121-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:40:17-82
-122            <meta-data
-122-->[:firebase_core] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
-123                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-123-->[:firebase_core] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
-124                android:value="com.google.firebase.components.ComponentRegistrar" />
-124-->[:firebase_core] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
-125            <meta-data
-125-->[com.google.firebase:firebase-iid:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2c8fd9b068f47c2305add24377b6833a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
-126                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-126-->[com.google.firebase:firebase-iid:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2c8fd9b068f47c2305add24377b6833a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
-127                android:value="com.google.firebase.components.ComponentRegistrar" />
-127-->[com.google.firebase:firebase-iid:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2c8fd9b068f47c2305add24377b6833a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
-128            <meta-data
-128-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:55:13-57:85
-129                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-129-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:56:17-119
-130                android:value="com.google.firebase.components.ComponentRegistrar" />
-130-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:57:17-82
-131            <meta-data
-131-->[com.google.firebase:firebase-installations:17.1.2] /Users/creolenewmacmini/.gradle/caches/transforms-3/24061899187b78241009844c3d179c84/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:17:13-19:85
-132                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-132-->[com.google.firebase:firebase-installations:17.1.2] /Users/creolenewmacmini/.gradle/caches/transforms-3/24061899187b78241009844c3d179c84/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:18:17-127
-133                android:value="com.google.firebase.components.ComponentRegistrar" />
-133-->[com.google.firebase:firebase-installations:17.1.2] /Users/creolenewmacmini/.gradle/caches/transforms-3/24061899187b78241009844c3d179c84/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:19:17-82
-134            <meta-data
-134-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/creolenewmacmini/.gradle/caches/transforms-3/6d3d61abd70335c3b3635bb7c10c06d9/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
-135                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-135-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/creolenewmacmini/.gradle/caches/transforms-3/6d3d61abd70335c3b3635bb7c10c06d9/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
-136                android:value="com.google.firebase.components.ComponentRegistrar" />
-136-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/creolenewmacmini/.gradle/caches/transforms-3/6d3d61abd70335c3b3635bb7c10c06d9/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
-137        </service>
-138
-139        <provider
-139-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-47:38
-140            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
-140-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-102
-141            android:authorities="com.example.project1.flutterfirebasemessaginginitprovider"
-141-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-88
-142            android:exported="false"
-142-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-37
-143            android:initOrder="99" />
-143-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-35
-144        <provider
-144-->[:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
-145            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-145-->[:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
-146            android:authorities="com.example.project1.flutter.image_provider"
-146-->[:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
-147            android:exported="false"
-147-->[:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
-148            android:grantUriPermissions="true" >
-148-->[:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
-149            <meta-data
-149-->[:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
-150                android:name="android.support.FILE_PROVIDER_PATHS"
-150-->[:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
-151                android:resource="@xml/flutter_image_picker_file_paths" />
-151-->[:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
-152        </provider>
-153
-154        <receiver
-154-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-18:40
-155            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
-155-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-91
-156            android:exported="false" />
-156-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
-157        <receiver
-157-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-21:40
-158            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
-158-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-97
-159            android:exported="false" />
-159-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
-160        <receiver
-160-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-31:20
-161            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
-161-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-101
-162            android:exported="false" >
-162-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-37
-163            <intent-filter>
-163-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-30:29
-164                <action android:name="android.intent.action.BOOT_COMPLETED" />
-164-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-79
-164-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:25-76
-165                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-165-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-84
-165-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-81
-166                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-166-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-82
-166-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-79
-167                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-167-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-82
-167-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-79
-168            </intent-filter>
-169        </receiver>
-170
-171        <activity
-171-->[:url_launcher_android] /Users/creolenewmacmini/StudioProjects/project1/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
-172            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-172-->[:url_launcher_android] /Users/creolenewmacmini/StudioProjects/project1/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
-173            android:exported="false"
-173-->[:url_launcher_android] /Users/creolenewmacmini/StudioProjects/project1/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
-174            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-174-->[:url_launcher_android] /Users/creolenewmacmini/StudioProjects/project1/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
-175
-176        <uses-library
-176-->[androidx.window:window:1.0.0-beta04] /Users/creolenewmacmini/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-177            android:name="androidx.window.extensions"
-177-->[androidx.window:window:1.0.0-beta04] /Users/creolenewmacmini/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-178            android:required="false" />
-178-->[androidx.window:window:1.0.0-beta04] /Users/creolenewmacmini/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-179        <uses-library
-179-->[androidx.window:window:1.0.0-beta04] /Users/creolenewmacmini/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-180            android:name="androidx.window.sidecar"
-180-->[androidx.window:window:1.0.0-beta04] /Users/creolenewmacmini/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-181            android:required="false" />
-181-->[androidx.window:window:1.0.0-beta04] /Users/creolenewmacmini/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-182
-183        <receiver
-183-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:31:9-38:20
-184            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-184-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:32:13-78
-185            android:exported="true"
-185-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:33:13-36
-186            android:permission="com.google.android.c2dm.permission.SEND" >
-186-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:34:13-73
-187            <intent-filter>
-187-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
-188                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-188-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
-188-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
-189            </intent-filter>
-190        </receiver>
-191        <!--
-192             FirebaseMessagingService performs security checks at runtime,
-193             but set to not exported to explicitly avoid allowing another app to call it.
-194        -->
-195        <service
-195-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:44:9-51:19
-196            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-196-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:45:13-82
-197            android:directBootAware="true"
-197-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:46:13-43
-198            android:exported="false" >
-198-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:47:13-37
-199            <intent-filter android:priority="-500" >
-199-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
-200                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-200-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
-200-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
-201            </intent-filter>
-202        </service>
-203
-204        <provider
-204-->[com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
-205            android:name="com.google.firebase.provider.FirebaseInitProvider"
-205-->[com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
-206            android:authorities="com.example.project1.firebaseinitprovider"
-206-->[com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
-207            android:directBootAware="true"
-207-->[com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
-208            android:exported="false"
-208-->[com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
-209            android:initOrder="100" />
-209-->[com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
-210
-211        <activity
-211-->[com.google.android.gms:play-services-base:18.0.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-212            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-212-->[com.google.android.gms:play-services-base:18.0.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-213            android:exported="false"
-213-->[com.google.android.gms:play-services-base:18.0.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-214            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-214-->[com.google.android.gms:play-services-base:18.0.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-215
-216        <meta-data
-216-->[com.google.android.gms:play-services-basement:18.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/83770efba2c122ac4d7bf3f6e3fc9396/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
-217            android:name="com.google.android.gms.version"
-217-->[com.google.android.gms:play-services-basement:18.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/83770efba2c122ac4d7bf3f6e3fc9396/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
-218            android:value="@integer/google_play_services_version" />
-218-->[com.google.android.gms:play-services-basement:18.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/83770efba2c122ac4d7bf3f6e3fc9396/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
-219
-220        <service
-220-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/61fd35e3738ef55dd6374ee6a68cae63/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
-221            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-221-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/61fd35e3738ef55dd6374ee6a68cae63/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
-222            android:exported="false" >
-222-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/61fd35e3738ef55dd6374ee6a68cae63/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
-223            <meta-data
-223-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/61fd35e3738ef55dd6374ee6a68cae63/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
-224                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-224-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/61fd35e3738ef55dd6374ee6a68cae63/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
-225                android:value="cct" />
-225-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/61fd35e3738ef55dd6374ee6a68cae63/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
-226        </service>
-227        <service
-227-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/978a2af69b997e29759906459292b13f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
-228            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-228-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/978a2af69b997e29759906459292b13f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
-229            android:exported="false"
-229-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/978a2af69b997e29759906459292b13f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
-230            android:permission="android.permission.BIND_JOB_SERVICE" >
-230-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/978a2af69b997e29759906459292b13f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
-231        </service>
-232
-233        <receiver
-233-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/978a2af69b997e29759906459292b13f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
-234            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-234-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/978a2af69b997e29759906459292b13f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
-235            android:exported="false" />
-235-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/978a2af69b997e29759906459292b13f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
-236    </application>
-237
-238</manifest>
+106        <activity
+107            android:name="com.facebook.FacebookActivity"
+108            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+109            android:label="@string/app_name"
+110            android:theme="@style/com_facebook_activity_theme" />
+110-->[com.facebook.android:facebook-common:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/20f6c5d1d032d742f59b99379417243b/transformed/jetified-facebook-common-16.0.0/AndroidManifest.xml:25:13-63
+111        <activity
+112            android:name="com.facebook.CustomTabActivity"
+113            android:exported="true" >
+114            <intent-filter>
+115                <action android:name="android.intent.action.VIEW" />
+115-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:74:13-65
+115-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:74:21-62
+116
+117                <category android:name="android.intent.category.DEFAULT" />
+117-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+117-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+118                <category android:name="android.intent.category.BROWSABLE" />
+118-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+118-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+119
+120                <data android:scheme="@string/fb_login_protocol_scheme" />
+120-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:75:13-42
+120-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:75:19-39
+121            </intent-filter>
+122            <intent-filter>
+122-->[com.facebook.android:facebook-common:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/20f6c5d1d032d742f59b99379417243b/transformed/jetified-facebook-common-16.0.0/AndroidManifest.xml:31:13-40:29
+123                <action android:name="android.intent.action.VIEW" />
+123-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:74:13-65
+123-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:74:21-62
+124
+125                <category android:name="android.intent.category.DEFAULT" />
+125-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+125-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+126                <category android:name="android.intent.category.BROWSABLE" />
+126-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+126-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+127
+128                <data
+128-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:75:13-42
+129                    android:host="cct.com.example.project1"
+130                    android:scheme="fbconnect" />
+130-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:75:19-39
+131            </intent-filter>
+132        </activity>
+133
+134        <service
+134-->[:firebase_auth] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+135            android:name="com.google.firebase.components.ComponentDiscoveryService"
+135-->[:firebase_auth] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+136            android:directBootAware="true"
+136-->[com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+137            android:exported="false" >
+137-->[com.google.firebase:firebase-iid:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2c8fd9b068f47c2305add24377b6833a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:31:13-37
+138            <meta-data
+138-->[:firebase_auth] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+139                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+139-->[:firebase_auth] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[:firebase_auth] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+141            <meta-data
+141-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-40:85
+142                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+142-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-128
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:40:17-82
+144            <meta-data
+144-->[:firebase_core] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+145                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+145-->[:firebase_core] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[:firebase_core] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+147            <meta-data
+147-->[com.google.firebase:firebase-iid:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2c8fd9b068f47c2305add24377b6833a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+148                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+148-->[com.google.firebase:firebase-iid:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2c8fd9b068f47c2305add24377b6833a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-iid:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2c8fd9b068f47c2305add24377b6833a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+151                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+151-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:55:13-57:85
+154                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+154-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:56:17-119
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:57:17-82
+156            <meta-data
+156-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/292dcfe60552548878279f3dbe0ddc63/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+157                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+157-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/292dcfe60552548878279f3dbe0ddc63/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/292dcfe60552548878279f3dbe0ddc63/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+159            <meta-data
+159-->[com.google.firebase:firebase-installations:17.1.2] /Users/creolenewmacmini/.gradle/caches/transforms-3/24061899187b78241009844c3d179c84/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:17:13-19:85
+160                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+160-->[com.google.firebase:firebase-installations:17.1.2] /Users/creolenewmacmini/.gradle/caches/transforms-3/24061899187b78241009844c3d179c84/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:18:17-127
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.firebase:firebase-installations:17.1.2] /Users/creolenewmacmini/.gradle/caches/transforms-3/24061899187b78241009844c3d179c84/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:19:17-82
+162            <meta-data
+162-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/creolenewmacmini/.gradle/caches/transforms-3/6d3d61abd70335c3b3635bb7c10c06d9/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+163                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+163-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/creolenewmacmini/.gradle/caches/transforms-3/6d3d61abd70335c3b3635bb7c10c06d9/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/creolenewmacmini/.gradle/caches/transforms-3/6d3d61abd70335c3b3635bb7c10c06d9/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+165        </service>
+166        <service
+166-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-19:72
+167            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+167-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-107
+168            android:exported="false"
+168-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+169            android:permission="android.permission.BIND_JOB_SERVICE" />
+169-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-69
+170        <service
+170-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-26:19
+171            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+171-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-97
+172            android:exported="false" >
+172-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+173            <intent-filter>
+173-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+174                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+174-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+174-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+175            </intent-filter>
+176        </service>
+177
+178        <receiver
+178-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-35:20
+179            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+179-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-98
+180            android:exported="true"
+180-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-36
+181            android:permission="com.google.android.c2dm.permission.SEND" >
+181-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-73
+182            <intent-filter>
+182-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
+183                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+183-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
+183-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
+184            </intent-filter>
+185        </receiver>
+186
+187        <provider
+187-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-47:38
+188            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+188-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-102
+189            android:authorities="com.example.project1.flutterfirebasemessaginginitprovider"
+189-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-88
+190            android:exported="false"
+190-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-37
+191            android:initOrder="99" />
+191-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-35
+192        <provider
+192-->[:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+193            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+193-->[:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+194            android:authorities="com.example.project1.flutter.image_provider"
+194-->[:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+195            android:exported="false"
+195-->[:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+196            android:grantUriPermissions="true" >
+196-->[:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+197            <meta-data
+197-->[:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+198                android:name="android.support.FILE_PROVIDER_PATHS"
+198-->[:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+199                android:resource="@xml/flutter_image_picker_file_paths" />
+199-->[:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+200        </provider>
+201
+202        <receiver
+202-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-18:40
+203            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+203-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-91
+204            android:exported="false" />
+204-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+205        <receiver
+205-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-21:40
+206            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+206-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-97
+207            android:exported="false" />
+207-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+208        <receiver
+208-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-31:20
+209            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+209-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-101
+210            android:exported="false" >
+210-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-37
+211            <intent-filter>
+211-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-30:29
+212                <action android:name="android.intent.action.BOOT_COMPLETED" />
+212-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-79
+212-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:25-76
+213                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+213-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-84
+213-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-81
+214                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+214-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-82
+214-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-79
+215                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+215-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-82
+215-->[:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-79
+216            </intent-filter>
+217        </receiver>
+218
+219        <activity
+219-->[:url_launcher_android] /Users/creolenewmacmini/StudioProjects/project1/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+220            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+220-->[:url_launcher_android] /Users/creolenewmacmini/StudioProjects/project1/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+221            android:exported="false"
+221-->[:url_launcher_android] /Users/creolenewmacmini/StudioProjects/project1/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+222            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+222-->[:url_launcher_android] /Users/creolenewmacmini/StudioProjects/project1/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+223
+224        <uses-library
+224-->[androidx.window:window:1.0.0-beta04] /Users/creolenewmacmini/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+225            android:name="androidx.window.extensions"
+225-->[androidx.window:window:1.0.0-beta04] /Users/creolenewmacmini/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+226            android:required="false" />
+226-->[androidx.window:window:1.0.0-beta04] /Users/creolenewmacmini/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+227        <uses-library
+227-->[androidx.window:window:1.0.0-beta04] /Users/creolenewmacmini/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+228            android:name="androidx.window.sidecar"
+228-->[androidx.window:window:1.0.0-beta04] /Users/creolenewmacmini/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+229            android:required="false" />
+229-->[androidx.window:window:1.0.0-beta04] /Users/creolenewmacmini/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+230
+231        <activity
+231-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+232            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+232-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+233            android:excludeFromRecents="true"
+233-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+234            android:exported="true"
+234-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+235            android:launchMode="singleTask"
+235-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+236            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+236-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+237            <intent-filter>
+237-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+238                <action android:name="android.intent.action.VIEW" />
+238-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:74:13-65
+238-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:74:21-62
+239
+240                <category android:name="android.intent.category.DEFAULT" />
+240-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+240-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+241                <category android:name="android.intent.category.BROWSABLE" />
+241-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+241-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+242
+243                <data
+243-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:75:13-42
+244                    android:host="firebase.auth"
+245                    android:path="/"
+246                    android:scheme="genericidp" />
+246-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:75:19-39
+247            </intent-filter>
+248        </activity>
+249        <activity
+249-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+250            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+250-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+251            android:excludeFromRecents="true"
+251-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+252            android:exported="true"
+252-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+253            android:launchMode="singleTask"
+253-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+254            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+254-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+255            <intent-filter>
+255-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+256                <action android:name="android.intent.action.VIEW" />
+256-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:74:13-65
+256-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:74:21-62
+257
+258                <category android:name="android.intent.category.DEFAULT" />
+258-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+258-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+259                <category android:name="android.intent.category.BROWSABLE" />
+259-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+259-->[com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+260
+261                <data
+261-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:75:13-42
+262                    android:host="firebase.auth"
+263                    android:path="/"
+264                    android:scheme="recaptcha" />
+264-->/Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:75:19-39
+265            </intent-filter>
+266        </activity>
+267
+268        <receiver
+268-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:31:9-38:20
+269            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+269-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:32:13-78
+270            android:exported="true"
+270-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:33:13-36
+271            android:permission="com.google.android.c2dm.permission.SEND" >
+271-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:34:13-73
+272            <intent-filter>
+272-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
+273                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+273-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
+273-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
+274            </intent-filter>
+275        </receiver>
+276        <!--
+277             FirebaseMessagingService performs security checks at runtime,
+278             but set to not exported to explicitly avoid allowing another app to call it.
+279        -->
+280        <service
+280-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:44:9-51:19
+281            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+281-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:45:13-82
+282            android:directBootAware="true"
+282-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:46:13-43
+283            android:exported="false" >
+283-->[com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:47:13-37
+284            <intent-filter android:priority="-500" >
+284-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+285                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+285-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+285-->[:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+286            </intent-filter>
+287        </service>
+288
+289        <provider
+289-->[com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+290            android:name="com.google.firebase.provider.FirebaseInitProvider"
+290-->[com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+291            android:authorities="com.example.project1.firebaseinitprovider"
+291-->[com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+292            android:directBootAware="true"
+292-->[com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+293            android:exported="false"
+293-->[com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+294            android:initOrder="100" />
+294-->[com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+295
+296        <activity android:name="com.facebook.CustomTabMainActivity" />
+296-->[com.facebook.android:facebook-common:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/20f6c5d1d032d742f59b99379417243b/transformed/jetified-facebook-common-16.0.0/AndroidManifest.xml:26:9-71
+296-->[com.facebook.android:facebook-common:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/20f6c5d1d032d742f59b99379417243b/transformed/jetified-facebook-common-16.0.0/AndroidManifest.xml:26:19-68
+297        <activity
+297-->[com.google.android.gms:play-services-auth:20.4.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/d67c0481b664637a952e3ebb105ffa53/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:23:9-27:75
+298            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+298-->[com.google.android.gms:play-services-auth:20.4.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/d67c0481b664637a952e3ebb105ffa53/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:24:13-93
+299            android:excludeFromRecents="true"
+299-->[com.google.android.gms:play-services-auth:20.4.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/d67c0481b664637a952e3ebb105ffa53/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:25:13-46
+300            android:exported="false"
+300-->[com.google.android.gms:play-services-auth:20.4.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/d67c0481b664637a952e3ebb105ffa53/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:26:13-37
+301            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+301-->[com.google.android.gms:play-services-auth:20.4.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/d67c0481b664637a952e3ebb105ffa53/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:27:13-72
+302        <!--
+303            Service handling Google Sign-In user revocation. For apps that do not integrate with
+304            Google Sign-In, this service will never be started.
+305        -->
+306        <service
+306-->[com.google.android.gms:play-services-auth:20.4.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/d67c0481b664637a952e3ebb105ffa53/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:33:9-37:51
+307            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+307-->[com.google.android.gms:play-services-auth:20.4.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/d67c0481b664637a952e3ebb105ffa53/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:34:13-89
+308            android:exported="true"
+308-->[com.google.android.gms:play-services-auth:20.4.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/d67c0481b664637a952e3ebb105ffa53/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:35:13-36
+309            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+309-->[com.google.android.gms:play-services-auth:20.4.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/d67c0481b664637a952e3ebb105ffa53/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:36:13-107
+310            android:visibleToInstantApps="true" />
+310-->[com.google.android.gms:play-services-auth:20.4.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/d67c0481b664637a952e3ebb105ffa53/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:37:13-48
+311        <!--
+312         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+313         with the application context. This config is merged in with the host app's manifest,
+314         but there can only be one provider with the same authority activated at any given
+315         point; so if the end user has two or more different apps that use Facebook SDK, only the
+316         first one will be able to use the provider. To work around this problem, we use the
+317         following placeholder in the authority to identify each host application as if it was
+318         a completely different provider.
+319        -->
+320        <provider
+320-->[com.facebook.android:facebook-core:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/c721f867fd7fbc4ebfe66a208774661b/transformed/jetified-facebook-core-16.0.0/AndroidManifest.xml:29:9-32:40
+321            android:name="com.facebook.internal.FacebookInitProvider"
+321-->[com.facebook.android:facebook-core:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/c721f867fd7fbc4ebfe66a208774661b/transformed/jetified-facebook-core-16.0.0/AndroidManifest.xml:30:13-70
+322            android:authorities="com.example.project1.FacebookInitProvider"
+322-->[com.facebook.android:facebook-core:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/c721f867fd7fbc4ebfe66a208774661b/transformed/jetified-facebook-core-16.0.0/AndroidManifest.xml:31:13-72
+323            android:exported="false" />
+323-->[com.facebook.android:facebook-core:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/c721f867fd7fbc4ebfe66a208774661b/transformed/jetified-facebook-core-16.0.0/AndroidManifest.xml:32:13-37
+324
+325        <receiver
+325-->[com.facebook.android:facebook-core:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/c721f867fd7fbc4ebfe66a208774661b/transformed/jetified-facebook-core-16.0.0/AndroidManifest.xml:34:9-40:20
+326            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+326-->[com.facebook.android:facebook-core:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/c721f867fd7fbc4ebfe66a208774661b/transformed/jetified-facebook-core-16.0.0/AndroidManifest.xml:35:13-86
+327            android:exported="false" >
+327-->[com.facebook.android:facebook-core:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/c721f867fd7fbc4ebfe66a208774661b/transformed/jetified-facebook-core-16.0.0/AndroidManifest.xml:36:13-37
+328            <intent-filter>
+328-->[com.facebook.android:facebook-core:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/c721f867fd7fbc4ebfe66a208774661b/transformed/jetified-facebook-core-16.0.0/AndroidManifest.xml:37:13-39:29
+329                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+329-->[com.facebook.android:facebook-core:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/c721f867fd7fbc4ebfe66a208774661b/transformed/jetified-facebook-core-16.0.0/AndroidManifest.xml:38:17-95
+329-->[com.facebook.android:facebook-core:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/c721f867fd7fbc4ebfe66a208774661b/transformed/jetified-facebook-core-16.0.0/AndroidManifest.xml:38:25-92
+330            </intent-filter>
+331        </receiver>
+332        <receiver
+332-->[com.facebook.android:facebook-core:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/c721f867fd7fbc4ebfe66a208774661b/transformed/jetified-facebook-core-16.0.0/AndroidManifest.xml:41:9-47:20
+333            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+333-->[com.facebook.android:facebook-core:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/c721f867fd7fbc4ebfe66a208774661b/transformed/jetified-facebook-core-16.0.0/AndroidManifest.xml:42:13-118
+334            android:exported="false" >
+334-->[com.facebook.android:facebook-core:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/c721f867fd7fbc4ebfe66a208774661b/transformed/jetified-facebook-core-16.0.0/AndroidManifest.xml:43:13-37
+335            <intent-filter>
+335-->[com.facebook.android:facebook-core:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/c721f867fd7fbc4ebfe66a208774661b/transformed/jetified-facebook-core-16.0.0/AndroidManifest.xml:44:13-46:29
+336                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+336-->[com.facebook.android:facebook-core:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/c721f867fd7fbc4ebfe66a208774661b/transformed/jetified-facebook-core-16.0.0/AndroidManifest.xml:45:17-103
+336-->[com.facebook.android:facebook-core:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/c721f867fd7fbc4ebfe66a208774661b/transformed/jetified-facebook-core-16.0.0/AndroidManifest.xml:45:25-100
+337            </intent-filter>
+338        </receiver>
+339        <receiver
+339-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/35ac47069b0cef4d04dce8b2fdee5ca0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+340            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+340-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/35ac47069b0cef4d04dce8b2fdee5ca0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+341            android:enabled="true"
+341-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/35ac47069b0cef4d04dce8b2fdee5ca0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+342            android:exported="false" >
+342-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/35ac47069b0cef4d04dce8b2fdee5ca0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+343        </receiver>
+344
+345        <service
+345-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/35ac47069b0cef4d04dce8b2fdee5ca0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+346            android:name="com.google.android.gms.measurement.AppMeasurementService"
+346-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/35ac47069b0cef4d04dce8b2fdee5ca0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+347            android:enabled="true"
+347-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/35ac47069b0cef4d04dce8b2fdee5ca0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+348            android:exported="false" />
+348-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/35ac47069b0cef4d04dce8b2fdee5ca0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+349        <service
+349-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/35ac47069b0cef4d04dce8b2fdee5ca0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+350            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+350-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/35ac47069b0cef4d04dce8b2fdee5ca0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+351            android:enabled="true"
+351-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/35ac47069b0cef4d04dce8b2fdee5ca0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+352            android:exported="false"
+352-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/35ac47069b0cef4d04dce8b2fdee5ca0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+353            android:permission="android.permission.BIND_JOB_SERVICE" />
+353-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/35ac47069b0cef4d04dce8b2fdee5ca0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+354
+355        <activity
+355-->[com.google.android.gms:play-services-base:18.0.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+356            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+356-->[com.google.android.gms:play-services-base:18.0.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+357            android:exported="false"
+357-->[com.google.android.gms:play-services-base:18.0.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+358            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+358-->[com.google.android.gms:play-services-base:18.0.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+359
+360        <meta-data
+360-->[com.google.android.gms:play-services-basement:18.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/83770efba2c122ac4d7bf3f6e3fc9396/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+361            android:name="com.google.android.gms.version"
+361-->[com.google.android.gms:play-services-basement:18.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/83770efba2c122ac4d7bf3f6e3fc9396/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+362            android:value="@integer/google_play_services_version" />
+362-->[com.google.android.gms:play-services-basement:18.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/83770efba2c122ac4d7bf3f6e3fc9396/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+363
+364        <service
+364-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/61fd35e3738ef55dd6374ee6a68cae63/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+365            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+365-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/61fd35e3738ef55dd6374ee6a68cae63/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+366            android:exported="false" >
+366-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/61fd35e3738ef55dd6374ee6a68cae63/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+367            <meta-data
+367-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/61fd35e3738ef55dd6374ee6a68cae63/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+368                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+368-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/61fd35e3738ef55dd6374ee6a68cae63/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+369                android:value="cct" />
+369-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/61fd35e3738ef55dd6374ee6a68cae63/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+370        </service>
+371        <service
+371-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/978a2af69b997e29759906459292b13f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+372            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+372-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/978a2af69b997e29759906459292b13f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+373            android:exported="false"
+373-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/978a2af69b997e29759906459292b13f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+374            android:permission="android.permission.BIND_JOB_SERVICE" >
+374-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/978a2af69b997e29759906459292b13f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+375        </service>
+376
+377        <receiver
+377-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/978a2af69b997e29759906459292b13f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+378            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+378-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/978a2af69b997e29759906459292b13f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+379            android:exported="false" />
+379-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/978a2af69b997e29759906459292b13f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+380    </application>
+381
+382</manifest>

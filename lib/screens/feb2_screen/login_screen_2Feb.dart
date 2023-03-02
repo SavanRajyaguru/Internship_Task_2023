@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:email_validator/email_validator.dart';
 import 'package:project1/screens/Week1_Tasks/demo_screen_31Jan.dart';
+import 'package:project1/screens/feb2_screen/services/authentication_services.dart';
 import 'package:project1/screens/feb3_screen/phone_directory_screen_feb3.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -13,6 +14,7 @@ class LoginScreen2Feb extends StatefulWidget {
 }
 
 class _LoginScreen2FebState extends State<LoginScreen2Feb> {
+  final AuthenticationService _authService = AuthenticationService();
   final _formKey = GlobalKey<FormState>();
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
@@ -50,40 +52,42 @@ class _LoginScreen2FebState extends State<LoginScreen2Feb> {
                       decoration: const BoxDecoration(
                           // color: Colors.black,
                           image: DecorationImage(
-                              image: AssetImage('images/Login.png'))),
+                              image: AssetImage('images/Login.png'))
+                      ),
                     ),
-                    Column(
-                      mainAxisAlignment: MainAxisAlignment.end,
-                      children: [
-                        const Text(
-                          "Digihappy",
-                          style: TextStyle(
-                              fontSize: 30.0,
-                              color: Colors.white,
-                              fontWeight: FontWeight.w700),
-                        ),
-                        const SizedBox(height: 10.0,),
-                        Container(
-                          height: 80.0,
-                          decoration: const BoxDecoration(
-                            // color: Colors.purpleAccent,
-                            image: DecorationImage(
-                              image: AssetImage('images/digihappyLogo.png'),
+                    Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.end,
+                        children: [
+                          const Text(
+                            "Digihappy",
+                            style: TextStyle(
+                                fontSize: 30.0,
+                                color: Colors.white,
+                                fontWeight: FontWeight.w700),
+                          ),
+                          const SizedBox(height: 10.0,),
+                          Container(
+                            height: 75.0,
+                            width: 75.0,
+                            decoration: const BoxDecoration(
+                              // color: Colors.purpleAccent,
+                              image: DecorationImage(
+                                image: AssetImage('images/digihappyLogo.png'),
+                              ),
                             ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ],
                 ),
               ),
-              const Expanded(
-                child: Padding(
-                  padding: EdgeInsets.symmetric(vertical: 30.0),
-                  child: Text(
-                    "Login",
-                    style: TextStyle(fontSize: 30.0, color: Colors.black),
-                  ),
+              const Padding(
+                padding: EdgeInsets.symmetric(vertical: 10.0),
+                child: Text(
+                  "Login",
+                  style: TextStyle(fontSize: 30.0, color: Colors.black),
                 ),
               ),
 
@@ -137,7 +141,38 @@ class _LoginScreen2FebState extends State<LoginScreen2Feb> {
                     'Forgot Password?',
                     style:
                         TextStyle(fontSize: 16.0, color: Colors.deepPurple),
-                  ))
+                  )),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  GestureDetector(
+                    onTap: () {
+                      _authService.signInGoogle(context);
+                    },
+                    child: Container(
+                      height: 60.0,
+                      width: 55.0,
+                      decoration: const BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage('images/google_logo.png')
+                      )
+                    ),),
+                  ),
+                  GestureDetector(
+                    onTap: () {
+                      _authService.signInFacebook(context);
+                    },
+                    child: Container(
+                      height: 60.0,
+                      width: 55.0,
+                      decoration: const BoxDecoration(
+                          image: DecorationImage(
+                              image: AssetImage('images/facebook_logo.png')
+                          )
+                      ),),
+                  ),
+                ],
+              ),
             ],
           ),
         ),

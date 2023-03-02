@@ -55,9 +55,11 @@ void main() async {
   );
 
   const AndroidInitializationSettings initializationSettingsAndroid =  AndroidInitializationSettings('@mipmap/ic_launcher');
+  const DarwinInitializationSettings initializationSettingsIos = DarwinInitializationSettings();
 
   const InitializationSettings initializationSettings = InitializationSettings(
     android: initializationSettingsAndroid,
+    iOS: initializationSettingsIos,
   );
   await flutterLocalNotificationsPlugin.initialize(initializationSettings);
 
@@ -99,6 +101,12 @@ void main() async {
                 message.notification?.title,
                 message.notification?.body,
                 NotificationDetails(
+                  iOS: DarwinNotificationDetails(
+                    presentBadge: true,
+                    presentAlert: true,
+                    presentSound: true,
+                    subtitle: message.notification?.body,
+                  ),
                   android: AndroidNotificationDetails(
                     channel.id,
                     channel.name,
@@ -161,7 +169,7 @@ class _MyAppState extends State<MyApp> {
       print('Got a message whilst in the onMessageOpenedApp!');
       print('Message data: ${message.data}');
       print('Message body: ${message.notification?.body}');
-    print(">>>>>>>>>>>> ${message.data}");
+      print(">>>>>>>>>>>> ${message.data}");
     // if (message.data['type'] == 'chat') {
     //   Navigator.pushNamed(context, '/chat',
     //     arguments: ChatArguments(message: message),
@@ -180,7 +188,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GameDetailScreen(),
+      home: LoginScreen2Feb(),
       // onGenerateRoute: _appRouter.onGenerateRoute,
       // routes: {
       //   '/': (context) => BlocProvider.value(
