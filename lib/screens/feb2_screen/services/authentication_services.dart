@@ -16,12 +16,12 @@ class AuthenticationService{
     // bool _isLogedin = true;
 
     final LoginResult result = await _facebookAuth.login();
-    if(result != null){
-      final accessToken = await _facebookAuth.accessToken;
+    if(result.status == LoginStatus.success){
+      final AccessToken accessToken = result.accessToken!;
 
-      final OAuthCredential facebookAuthCredential =
-        FacebookAuthProvider.credential(result.accessToken!.token);
-      print("CREDENTIAL>>>>> ${result.accessToken!.token}");
+      final AuthCredential facebookAuthCredential =
+        FacebookAuthProvider.credential(accessToken.token);
+      print("CREDENTIAL>>>>> ${accessToken.token}");
 
       _firebaseAuth.signInWithCredential(facebookAuthCredential);
 
@@ -90,6 +90,7 @@ class AuthenticationService{
   User? getUser() {
     try{
       print("EMAIL>>>>>>>>>> ${_firebaseAuth.currentUser?.email}");
+      print("Display>>>>>>>>>> ${_firebaseAuth.currentUser?.providerData[0].providerId}");
       return _firebaseAuth.currentUser;
     } on FirebaseAuthException catch(e) {
       print(e.message);

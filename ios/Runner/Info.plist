@@ -4,19 +4,41 @@
 <dict>
     <!-- Put me in the [my_project]/ios/Runner/Info.plist file -->
     <!-- Facebook Sign-in Section -->
-    <key>CFBundleURLTypes</key>
+       <key>CFBundleURLTypes</key>
         <array>
           <dict>
-          <key>CFBundleURLSchemes</key>
-          <array>
-            <string>fb989079388741849</string>
-          </array>
+              <key>CFBundleURLSchemes</key>
+                  <array>
+                    <string>fb989079388741849</string>
+                  </array>
+          </dict>
+          <dict>
+              <key>CFBundleTypeRole</key>
+              <string>Editor</string>
+              <key>CFBundleURLSchemes</key>
+              <array>
+                  <string>com.googleusercontent.apps.572121212121-axxxxp6vaaaadc06aaaaaacd4d7lbnc</string>
+              </array>
           </dict>
         </array>
+
         <key>FacebookAppID</key>
         <string>989079388741849</string>
+
+        <key>FacebookClientToken</key>
+        <string>5dae2737f6606b1c7b8a9e6a12e146d7</string>
+
         <key>FacebookDisplayName</key>
-        <string>InternshipTask</string>
+        <string>fbInternshipTask</string>
+
+
+        <key>LSApplicationQueriesSchemes</key>
+        <array>
+          <string>fbapi</string>
+          <string>fb-messenger-share-api</string>
+          <string>fbauth2</string>
+          <string>fbshareextension</string>
+        </array>
         <!-- End of the Facebook Sign-in Section -->
 
     <!-- Google Sign-in Section -->

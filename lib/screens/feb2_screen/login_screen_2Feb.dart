@@ -21,6 +21,13 @@ class _LoginScreen2FebState extends State<LoginScreen2Feb> {
   bool obscureText = true;
 
   @override
+  void initState() {
+    // TODO: implement initState
+    AuthenticationService().getUser();
+    super.initState();
+  }
+
+  @override
   void dispose() {
     // TODO: implement dispose
     emailController.dispose();
