@@ -1,8 +1,12 @@
 -- Merging decision tree log ---
 application
 INJECTED from /Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:9:5-70:19
+MERGED from [:firebase_database] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_database] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_auth] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_auth] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-48:19
 MERGED from [:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-48:19
 MERGED from [:firebase_core] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
@@ -25,6 +29,10 @@ MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:30:5-59:19
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/81f342884a46218f5b2387a54f27b82e/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/81f342884a46218f5b2387a54f27b82e/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/69d53eedac0925ac58cc10249c7aad25/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/69d53eedac0925ac58cc10249c7aad25/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:27:5-35:19
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/292dcfe60552548878279f3dbe0ddc63/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:27:5-35:19
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/292dcfe60552548878279f3dbe0ddc63/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:27:5-35:19
 MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/creolenewmacmini/.gradle/caches/transforms-3/24061899187b78241009844c3d179c84/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:13:5-21:19
@@ -33,6 +41,8 @@ MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/creolenewm
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/730b76b55745f22bcf8606cd8a0c1a1e/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/creolenewmacmini/.gradle/caches/transforms-3/6d3d61abd70335c3b3635bb7c10c06d9/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/creolenewmacmini/.gradle/caches/transforms-3/6d3d61abd70335c3b3635bb7c10c06d9/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2b34a3ac986fd7efd50998ebd986caa4/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2b34a3ac986fd7efd50998ebd986caa4/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
 MERGED from [com.facebook.android:facebook-common:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/20f6c5d1d032d742f59b99379417243b/transformed/jetified-facebook-common-16.0.0/AndroidManifest.xml:21:5-42:19
@@ -91,10 +101,12 @@ INJECTED from /Users/creolenewmacmini/StudioProjects/project1/android/app/src/ma
 INJECTED from /Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:1:1-83:12
 INJECTED from /Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:1:1-83:12
 MERGED from /Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:1:1-83:12
-MERGED from [:shared_preferences_android] /Users/creolenewmacmini/StudioProjects/project1/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:firebase_database] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_auth] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_storage] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-50:12
 MERGED from [:firebase_core] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:file_picker] /Users/creolenewmacmini/StudioProjects/project1/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
 MERGED from [:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:flutter_local_notifications] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-34:12
@@ -102,6 +114,7 @@ MERGED from [:url_launcher_android] /Users/creolenewmacmini/StudioProjects/proje
 MERGED from [:google_sign_in_android] /Users/creolenewmacmini/StudioProjects/project1/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:flutter_secure_storage] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_secure_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:flutter_facebook_auth] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_facebook_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:shared_preferences_android] /Users/creolenewmacmini/StudioProjects/project1/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/creolenewmacmini/.gradle/caches/transforms-3/21b26ef90e71324700151bde7e8603b7/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/creolenewmacmini/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/e96b39fbdb8724ecd5752340be2c856e/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:2:1-9:12
@@ -109,11 +122,15 @@ MERGED from [com.facebook.android:facebook-login:16.0.0] /Users/creolenewmacmini
 MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2c8fd9b068f47c2305add24377b6833a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:17:1-73:12
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:17:1-61:12
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/81f342884a46218f5b2387a54f27b82e/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/69d53eedac0925ac58cc10249c7aad25/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/292dcfe60552548878279f3dbe0ddc63/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:17:1-37:12
 MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/creolenewmacmini/.gradle/caches/transforms-3/24061899187b78241009844c3d179c84/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:2:1-23:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/730b76b55745f22bcf8606cd8a0c1a1e/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/creolenewmacmini/.gradle/caches/transforms-3/6d3d61abd70335c3b3635bb7c10c06d9/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2b34a3ac986fd7efd50998ebd986caa4/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha04] /Users/creolenewmacmini/.gradle/caches/transforms-3/7b083234c58bb891155ac7b75044d016/transformed/jetified-security-crypto-1.1.0-alpha04/AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.android:facebook-common:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/20f6c5d1d032d742f59b99379417243b/transformed/jetified-facebook-common-16.0.0/AndroidManifest.xml:9:1-44:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/620fe03bba1b1c827cf6a4d51585bc91/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/a4ed1ce2c78e6f1fa3bc8096ec5afc4b/transformed/media-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -130,6 +147,7 @@ MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/creolenewmacmini/.gradle/caches/transforms-3/b54c30be46eadd43c7f10d4e42a497af/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-fido:19.0.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/4e90a1471e0901acb6a7fcba47214bf8/transformed/jetified-play-services-fido-19.0.1/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/5e81da19e7089e645935920d2e16cce7/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/a68dbdfb4820e2e1424e2b205888aae5/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/1527854859835c6d3ffe7502923368b9/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/e672705abf0bb282c687654b0cf60cbd/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:2:1-13:12
@@ -158,11 +176,10 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/creole
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/78af9d1e549c9d79bddf8a9f3b6fda57/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.8.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/005627934cb5de51d804cd3c597f8200/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/creolenewmacmini/.gradle/caches/transforms-3/f8af4d3dab65746e6bed0147129ed44f/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.security:security-crypto:1.1.0-alpha04] /Users/creolenewmacmini/.gradle/caches/transforms-3/7b083234c58bb891155ac7b75044d016/transformed/jetified-security-crypto-1.1.0-alpha04/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/49e5b2e5ff169ddbddabe20c45d65de5/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2d02471870aa316b096e6926a6a97b8f/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/1860b854a363574f2e690af557cabc1a/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/16d334c486cbdec77958d3d22ef782e4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/1860b854a363574f2e690af557cabc1a/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/3147532aea67e8f73e35abf288c0bf3e/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b668e1ed6fd5063748c9736c1945100b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/creolenewmacmini/.gradle/caches/transforms-3/61fd35e3738ef55dd6374ee6a68cae63/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:15:1-37:12
@@ -213,6 +230,10 @@ MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/creolenewmacmini/.g
 MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2c8fd9b068f47c2305add24377b6833a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/81f342884a46218f5b2387a54f27b82e/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/81f342884a46218f5b2387a54f27b82e/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/69d53eedac0925ac58cc10249c7aad25/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/69d53eedac0925ac58cc10249c7aad25/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/292dcfe60552548878279f3dbe0ddc63/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/292dcfe60552548878279f3dbe0ddc63/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/creolenewmacmini/.gradle/caches/transforms-3/24061899187b78241009844c3d179c84/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:10:5-67
@@ -242,6 +263,8 @@ REJECTED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] 
 		ADDED from /Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:7:22-76
 queries
 ADDED from /Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml:71:5-82:15
+MERGED from [:file_picker] /Users/creolenewmacmini/StudioProjects/project1/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:15
+MERGED from [:file_picker] /Users/creolenewmacmini/StudioProjects/project1/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:15
 MERGED from [com.facebook.android:facebook-common:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/20f6c5d1d032d742f59b99379417243b/transformed/jetified-facebook-common-16.0.0/AndroidManifest.xml:17:5-19:15
 MERGED from [com.facebook.android:facebook-common:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/20f6c5d1d032d742f59b99379417243b/transformed/jetified-facebook-common-16.0.0/AndroidManifest.xml:17:5-19:15
 intent#action:name:android.intent.action.VIEW+data:scheme:sms
@@ -260,14 +283,18 @@ uses-sdk
 INJECTED from /Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml
-MERGED from [:shared_preferences_android] /Users/creolenewmacmini/StudioProjects/project1/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:shared_preferences_android] /Users/creolenewmacmini/StudioProjects/project1/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_database] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_database] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_auth] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_auth] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:file_picker] /Users/creolenewmacmini/StudioProjects/project1/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:file_picker] /Users/creolenewmacmini/StudioProjects/project1/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_plugin_android_lifecycle] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -282,6 +309,8 @@ MERGED from [:flutter_secure_storage] /Users/creolenewmacmini/StudioProjects/pro
 MERGED from [:flutter_secure_storage] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_secure_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-9:53
 MERGED from [:flutter_facebook_auth] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_facebook_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_facebook_auth] /Users/creolenewmacmini/StudioProjects/project1/build/flutter_facebook_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/creolenewmacmini/StudioProjects/project1/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/creolenewmacmini/StudioProjects/project1/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/creolenewmacmini/.gradle/caches/transforms-3/21b26ef90e71324700151bde7e8603b7/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/creolenewmacmini/.gradle/caches/transforms-3/21b26ef90e71324700151bde7e8603b7/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/creolenewmacmini/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
@@ -296,6 +325,10 @@ MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/81f342884a46218f5b2387a54f27b82e/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/81f342884a46218f5b2387a54f27b82e/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/69d53eedac0925ac58cc10249c7aad25/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/69d53eedac0925ac58cc10249c7aad25/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/292dcfe60552548878279f3dbe0ddc63/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/292dcfe60552548878279f3dbe0ddc63/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/creolenewmacmini/.gradle/caches/transforms-3/24061899187b78241009844c3d179c84/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:5:5-7:41
@@ -304,8 +337,12 @@ MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/creolenewm
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/730b76b55745f22bcf8606cd8a0c1a1e/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/creolenewmacmini/.gradle/caches/transforms-3/6d3d61abd70335c3b3635bb7c10c06d9/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/creolenewmacmini/.gradle/caches/transforms-3/6d3d61abd70335c3b3635bb7c10c06d9/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2b34a3ac986fd7efd50998ebd986caa4/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2b34a3ac986fd7efd50998ebd986caa4/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.security:security-crypto:1.1.0-alpha04] /Users/creolenewmacmini/.gradle/caches/transforms-3/7b083234c58bb891155ac7b75044d016/transformed/jetified-security-crypto-1.1.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha04] /Users/creolenewmacmini/.gradle/caches/transforms-3/7b083234c58bb891155ac7b75044d016/transformed/jetified-security-crypto-1.1.0-alpha04/AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.android:facebook-common:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/20f6c5d1d032d742f59b99379417243b/transformed/jetified-facebook-common-16.0.0/AndroidManifest.xml:13:5-15:41
 MERGED from [com.facebook.android:facebook-common:16.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/20f6c5d1d032d742f59b99379417243b/transformed/jetified-facebook-common-16.0.0/AndroidManifest.xml:13:5-15:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/620fe03bba1b1c827cf6a4d51585bc91/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
@@ -338,6 +375,8 @@ MERGED from [com.google.android.gms:play-services-fido:19.0.1] /Users/creolenewm
 MERGED from [com.google.android.gms:play-services-fido:19.0.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/4e90a1471e0901acb6a7fcba47214bf8/transformed/jetified-play-services-fido-19.0.1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/5e81da19e7089e645935920d2e16cce7/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/5e81da19e7089e645935920d2e16cce7/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/a68dbdfb4820e2e1424e2b205888aae5/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/a68dbdfb4820e2e1424e2b205888aae5/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/1527854859835c6d3ffe7502923368b9/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
@@ -394,16 +433,14 @@ MERGED from [androidx.core:core:1.8.0] /Users/creolenewmacmini/.gradle/caches/tr
 MERGED from [androidx.core:core:1.8.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/005627934cb5de51d804cd3c597f8200/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/creolenewmacmini/.gradle/caches/transforms-3/f8af4d3dab65746e6bed0147129ed44f/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/creolenewmacmini/.gradle/caches/transforms-3/f8af4d3dab65746e6bed0147129ed44f/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.security:security-crypto:1.1.0-alpha04] /Users/creolenewmacmini/.gradle/caches/transforms-3/7b083234c58bb891155ac7b75044d016/transformed/jetified-security-crypto-1.1.0-alpha04/AndroidManifest.xml:20:5-44
-MERGED from [androidx.security:security-crypto:1.1.0-alpha04] /Users/creolenewmacmini/.gradle/caches/transforms-3/7b083234c58bb891155ac7b75044d016/transformed/jetified-security-crypto-1.1.0-alpha04/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/49e5b2e5ff169ddbddabe20c45d65de5/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/49e5b2e5ff169ddbddabe20c45d65de5/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2d02471870aa316b096e6926a6a97b8f/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2d02471870aa316b096e6926a6a97b8f/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/1860b854a363574f2e690af557cabc1a/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/1860b854a363574f2e690af557cabc1a/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/16d334c486cbdec77958d3d22ef782e4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/16d334c486cbdec77958d3d22ef782e4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/1860b854a363574f2e690af557cabc1a/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/1860b854a363574f2e690af557cabc1a/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/3147532aea67e8f73e35abf288c0bf3e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/3147532aea67e8f73e35abf288c0bf3e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b668e1ed6fd5063748c9736c1945100b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
@@ -451,7 +488,11 @@ INJECTED from /Users/creolenewmacmini/StudioProjects/project1/android/app/src/de
 		INJECTED from /Users/creolenewmacmini/StudioProjects/project1/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/creolenewmacmini/StudioProjects/project1/android/app/src/debug/AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_auth] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+ADDED from [:firebase_database] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 MERGED from [:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-41:19
 MERGED from [:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-41:19
 MERGED from [:firebase_core] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
@@ -462,6 +503,10 @@ MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:52:9-58:19
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:52:9-58:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/81f342884a46218f5b2387a54f27b82e/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/81f342884a46218f5b2387a54f27b82e/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/69d53eedac0925ac58cc10249c7aad25/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/69d53eedac0925ac58cc10249c7aad25/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:28:9-34:19
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/292dcfe60552548878279f3dbe0ddc63/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/292dcfe60552548878279f3dbe0ddc63/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
 MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/creolenewmacmini/.gradle/caches/transforms-3/24061899187b78241009844c3d179c84/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:14:9-20:19
@@ -477,13 +522,25 @@ MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/b24238b145583e9bb28ada432bde27f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
 	android:name
-		ADDED from [:firebase_auth] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+		ADDED from [:firebase_database] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_database] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_database] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_database] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-127
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
 ADDED from [:firebase_auth] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 	android:value
 		ADDED from [:firebase_auth] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 	android:name
 		ADDED from [:firebase_auth] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_storage] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_storage] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [:firebase_messaging] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
 MERGED from [com.google.firebase:firebase-iid:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/2c8fd9b068f47c2305add24377b6833a/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:24:5-68
@@ -510,6 +567,10 @@ MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/81f342884a46218f5b2387a54f27b82e/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/81f342884a46218f5b2387a54f27b82e/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/69d53eedac0925ac58cc10249c7aad25/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/69d53eedac0925ac58cc10249c7aad25/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/292dcfe60552548878279f3dbe0ddc63/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/292dcfe60552548878279f3dbe0ddc63/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/creolenewmacmini/.gradle/caches/transforms-3/24061899187b78241009844c3d179c84/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:9:5-79
@@ -592,6 +653,16 @@ ADDED from [:firebase_core] /Users/creolenewmacmini/StudioProjects/project1/buil
 		ADDED from [:firebase_core] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 	android:name
 		ADDED from [:firebase_core] /Users/creolenewmacmini/StudioProjects/project1/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:file_picker] /Users/creolenewmacmini/StudioProjects/project1/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from [:file_picker] /Users/creolenewmacmini/StudioProjects/project1/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-77
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] /Users/creolenewmacmini/StudioProjects/project1/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:file_picker] /Users/creolenewmacmini/StudioProjects/project1/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-72
+	android:name
+		ADDED from [:file_picker] /Users/creolenewmacmini/StudioProjects/project1/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:21-69
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
 ADDED from [:image_picker_android] /Users/creolenewmacmini/StudioProjects/project1/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
 	android:grantUriPermissions
@@ -758,6 +829,18 @@ ADDED from [com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmi
 		ADDED from [com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:57:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:23.1.1] /Users/creolenewmacmini/.gradle/caches/transforms-3/df9a90ae4652f15482b0374a218c8d1a/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:56:17-119
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/81f342884a46218f5b2387a54f27b82e/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/81f342884a46218f5b2387a54f27b82e/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/81f342884a46218f5b2387a54f27b82e/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/69d53eedac0925ac58cc10249c7aad25/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/69d53eedac0925ac58cc10249c7aad25/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.1.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/69d53eedac0925ac58cc10249c7aad25/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:32:17-109
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
 ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/creolenewmacmini/.gradle/caches/transforms-3/292dcfe60552548878279f3dbe0ddc63/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
 	android:value

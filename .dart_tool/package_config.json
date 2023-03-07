@@ -146,6 +146,24 @@
       "languageVersion": "2.16"
     },
     {
+      "name": "firebase_database",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database-10.0.14",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_database_platform_interface",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database_platform_interface-0.2.2+21",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_database_web",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database_web-0.2.1+23",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
       "name": "firebase_messaging",
       "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-14.2.5",
       "packageUri": "lib/",
@@ -662,7 +680,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-03-06T05:37:17.968834Z",
+  "generated": "2023-03-07T06:11:26.114304Z",
   "generator": "pub",
   "generatorVersion": "2.18.6"
 }

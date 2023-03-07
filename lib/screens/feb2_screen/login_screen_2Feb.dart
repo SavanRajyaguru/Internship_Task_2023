@@ -1,7 +1,9 @@
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:email_validator/email_validator.dart';
 import 'package:project1/screens/Week1_Tasks/demo_screen_31Jan.dart';
 import 'package:project1/screens/feb2_screen/services/authentication_services.dart';
+import 'package:project1/screens/feb2_screen/services/realtime_db_demo.dart';
 import 'package:project1/screens/feb3_screen/phone_directory_screen_feb3.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -109,7 +111,8 @@ class _LoginScreen2FebState extends State<LoginScreen2Feb> {
                   padding: const EdgeInsets.only(top: 50.0),
                   child: ElevatedButton(
                     onPressed: () async {
-
+                      RealtimeDB().insertData();
+                      // RealtimeDB().getData();
                       if(_formKey.currentState!.validate()) {
                         _formKey.currentState!.save();
 
