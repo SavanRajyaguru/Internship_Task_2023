@@ -21,7 +21,6 @@ class _LoginScreen2FebState extends State<LoginScreen2Feb> {
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
   bool obscureText = true;
-
   @override
   void initState() {
     // TODO: implement initState
@@ -111,7 +110,10 @@ class _LoginScreen2FebState extends State<LoginScreen2Feb> {
                   padding: const EdgeInsets.only(top: 50.0),
                   child: ElevatedButton(
                     onPressed: () async {
-                      RealtimeDB().insertData();
+                      // createDB();
+                      RealtimeDB().insertData(emailController.text, passwordController.text);
+                      // RealtimeDB().update(emailController.text, passwordController.text);
+                      // RealtimeDB().readData(emailController.text);
                       // RealtimeDB().getData();
                       if(_formKey.currentState!.validate()) {
                         _formKey.currentState!.save();
@@ -142,10 +144,11 @@ class _LoginScreen2FebState extends State<LoginScreen2Feb> {
 
               TextButton(
                   onPressed: () async {
-                    final Uri toLaunch = Uri(scheme: 'https', host: 'www.google.com', path: 'headers/');
-                    if(! await launchUrl(toLaunch ,mode: LaunchMode.inAppWebView)){
-                      throw Exception('Could not launch $toLaunch');
-                    }
+                    // final Uri toLaunch = Uri(scheme: 'https', host: 'www.google.com', path: 'headers/');
+                    // if(! await launchUrl(toLaunch ,mode: LaunchMode.inAppWebView)){
+                    //   throw Exception('Could not launch $toLaunch');
+                    // }
+                    RealtimeDB().deleteData(emailController.text);
                   },
                   child: const Text(
                     'Forgot Password?',
@@ -170,7 +173,8 @@ class _LoginScreen2FebState extends State<LoginScreen2Feb> {
                   ),
                   GestureDetector(
                     onTap: () {
-                      _authService.signInFacebook(context);
+                      // _authService.signInFacebook(context);
+                      RealtimeDB().update(emailController.text);
                     },
                     child: Container(
                       height: 60.0,
