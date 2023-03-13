@@ -8,6 +8,7 @@ import 'package:project1/firebase_options.dart';
 import 'package:project1/router/app_router.dart';
 import 'package:project1/screens/Mar10_screen/Screen/phone_login_screen.dart';
 import 'package:project1/screens/Mar6_screen/screen/Image_storage.dart';
+import 'package:project1/screens/Week1_Tasks/demo_screen_31Jan.dart';
 import 'package:project1/screens/feb10_screen/widget/PostListView.dart';
 import 'package:project1/screens/feb13_screen/widget/post_screen.dart';
 import 'package:project1/screens/feb14_screen/widget/Counter2_Screen.dart';
@@ -190,7 +191,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PhoneLoginScreen(),
+      home: HomeScreen(),
       // onGenerateRoute: _appRouter.onGenerateRoute,
       // routes: {
       //   '/': (context) => BlocProvider.value(

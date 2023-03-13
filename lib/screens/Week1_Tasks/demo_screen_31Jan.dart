@@ -9,38 +9,57 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   var pageIndex = 0;
-
+  int count = 0;
   @override
   Widget build(BuildContext context) {
+    print("Context Count: $count");
     return Scaffold(
       resizeToAvoidBottomInset: false,
       bottomNavigationBar: _bottomBar(),
-      body: Column(
-        children: [
-          _basicProfileInfo(),
-          _searchBar(),
-          Expanded(flex: 2, child: _cardListView()),
-          Padding(
-            padding:
-                const EdgeInsets.symmetric(horizontal: 25.0, vertical: 20.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: const [
-                Text(
-                  "Event for you",
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0),
+      body: RefreshIndicator(
+        color: Colors.red,
+        strokeWidth: 3,
+        triggerMode: RefreshIndicatorTriggerMode.onEdge,
+        displacement: 100,
+        onRefresh: () async{
+          await Future.delayed(const Duration(seconds: 2));
+          setState(() {
+            count++;
+          });
+          },
+        child: SingleChildScrollView(
+          physics: const AlwaysScrollableScrollPhysics(),
+          child: SizedBox(
+            height: MediaQuery.of(context).size.height,
+            child: Column(
+              children: [
+                _basicProfileInfo(),
+                _searchBar(),
+                Expanded(flex: 2, child: _cardListView()),
+                Padding(
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 25.0, vertical: 20.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: const [
+                      Text(
+                        "Event for you",
+                        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0),
+                      ),
+                      Text(
+                        "View More",
+                        style: TextStyle(color: Colors.grey),
+                      ),
+                    ],
+                  ),
                 ),
-                Text(
-                  "View More",
-                  style: TextStyle(color: Colors.grey),
+                Expanded(
+                  child: _listTiles(),
                 ),
               ],
             ),
           ),
-          Expanded(
-            child: _listTiles(),
-          ),
-        ],
+        ),
       ),
     );
   }
@@ -49,6 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _listTiles() {
     return ListView(
       scrollDirection: Axis.vertical,
+      padding: EdgeInsets.zero,
       children: List.generate(10, (index) {
         return Padding(
           padding: const EdgeInsets.symmetric(horizontal: 10.0),
