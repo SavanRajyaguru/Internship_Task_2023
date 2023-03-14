@@ -40,6 +40,7 @@ dependencies:
   firebase_auth: ^4.2.9
   google_sign_in: ^6.0.1
   flutter_facebook_auth: ^5.0.7
+  firebase_dynamic_links: ^5.0.16
   firebase_storage: ^11.0.14
   firebase_database: ^10.0.14
   file_picker: ^5.2.5

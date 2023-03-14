@@ -61,6 +61,9 @@
     <array>
       <string>sms</string>
       <string>tel</string>
+      <string>whatsapp</string>
+      <string>http</string>
+      <string>https</string>
     </array>
     <key>NSPhotoLibraryUsageDescription</key>
     <string>Upload images for screen background</string>
