@@ -1,3 +1,4 @@
+import 'package:camera/camera.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
@@ -8,6 +9,7 @@ import 'package:project1/firebase_options.dart';
 import 'package:project1/router/app_router.dart';
 import 'package:project1/screens/Mar10_screen/Screen/phone_login_screen.dart';
 import 'package:project1/screens/Mar14_screen/routes/route_services.dart';
+import 'package:project1/screens/Mar16_screen/screen/CameraVideo.dart';
 import 'package:project1/screens/Mar6_screen/screen/Image_storage.dart';
 import 'package:project1/screens/Week1_Tasks/demo_screen_31Jan.dart';
 import 'package:project1/screens/feb10_screen/widget/PostListView.dart';
@@ -43,11 +45,12 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   print("Handling a background message: ${message.messageId}");
 }
 
-
+late List<CameraDescription> cameras;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+  cameras = await availableCameras();
   final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
 
   AndroidNotificationChannel channel = const AndroidNotificationChannel(
@@ -190,11 +193,11 @@ class _MyAppState extends State<MyApp> {
   }
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       // initialRoute: "/homeScreen",
-      onGenerateRoute: RouteServices.generateRoute,
-      // home: HomeScreen(),
+      // onGenerateRoute: RouteServices.generateRoute,
+      home: CameraVideoDemo(cameras: cameras),
       // onGenerateRoute: _appRouter.onGenerateRoute,
       // routes: {
       //   '/': (context) => BlocProvider.value(

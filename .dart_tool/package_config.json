@@ -38,6 +38,36 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "camera",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/camera-0.10.3+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "camera_android",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/camera_android-0.10.4+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "camera_avfoundation",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/camera_avfoundation-0.9.13+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "camera_platform_interface",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/camera_platform_interface-2.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "camera_web",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/camera_web-0.3.1+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "characters",
       "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.2.1",
       "packageUri": "lib/",
@@ -332,6 +362,12 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "gallery_saver",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/gallery_saver-2.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "get",
       "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/get-4.6.5",
       "packageUri": "lib/",
@@ -382,6 +418,12 @@
     {
       "name": "http_parser",
       "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "image_gallery_saver",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/image_gallery_saver-1.7.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -462,6 +504,24 @@
       "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "path_provider",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.13",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "path_provider_android",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.24",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "path_provider_foundation",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_foundation-2.1.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
     },
     {
       "name": "path_provider_linux",
@@ -584,6 +644,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "stream_transform",
+      "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/stream_transform-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "string_scanner",
       "rootUri": "file:///Users/creolenewmacmini/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.1",
       "packageUri": "lib/",
@@ -692,7 +758,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-03-14T09:08:00.507042Z",
+  "generated": "2023-03-16T12:02:29.666269Z",
   "generator": "pub",
   "generatorVersion": "2.18.6"
 }

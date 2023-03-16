@@ -35,7 +35,6 @@ class _DynamicLinkState extends State<DynamicLink> {
 
 
   Future<void> _makePhoneCall(String phoneNumber) async {
-
     if (await canLaunchUrl(Uri(scheme: 'tel', path: 'tel:1234567891'))) {
       final Uri lunchUri = Uri(scheme: 'tel', path: phoneNumber);
       await launchUrl(lunchUri);

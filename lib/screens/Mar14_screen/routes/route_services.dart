@@ -1,14 +1,15 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:project1/screens/Mar14_screen/screens/dynamiclink_demo.dart';
+import 'package:project1/screens/Mar16_screen/screen/CameraVideo.dart';
 import 'package:project1/screens/Week1_Tasks/demo_screen_31Jan.dart';
 
 class RouteServices {
   static Route<dynamic> generateRoute(RouteSettings routeSettings) {
     final args = routeSettings.arguments;
     switch(routeSettings.name){
-      case "/":
-        return MaterialPageRoute(builder: (_) => const DynamicLink());
+      // case "/":
+      //   return MaterialPageRoute(builder: (_) => CameraVideoDemo());
       case "/homeScreen":
         return MaterialPageRoute(builder: (_) => const HomeScreen());
       default:
