@@ -22,6 +22,8 @@ if (flutterVersionName == null) {
 }
 
 apply plugin: 'com.android.application'
+// Add the Crashlytics Gradle plugin
+apply plugin: 'com.google.firebase.crashlytics'
 // START: FlutterFire Configuration
 apply plugin: 'com.google.gms.google-services'
 // END: FlutterFire Configuration
@@ -71,7 +73,8 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation "com.google.firebase:firebase-bom:31.2.2"
+    implementation "com.google.firebase:firebase-bom:31.2.3"
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
     implementation "com.google.firebase:firebase-analytics"
     implementation 'com.facebook.android:facebook-login:latest.release'
 }

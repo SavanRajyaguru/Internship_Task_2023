@@ -193,11 +193,11 @@ class _MyAppState extends State<MyApp> {
   }
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       // initialRoute: "/homeScreen",
       // onGenerateRoute: RouteServices.generateRoute,
-      home: CameraVideoDemo(cameras: cameras),
+      home: GameDetailScreen(),
       // onGenerateRoute: _appRouter.onGenerateRoute,
       // routes: {
       //   '/': (context) => BlocProvider.value(

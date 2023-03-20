@@ -13,12 +13,19 @@ class CameraVideoDemo extends StatefulWidget {
 class _CameraVideoDemoState extends State<CameraVideoDemo> {
 
   late CameraController cameraController;
+  late Future<void> cameraValue;
   XFile? videoFile;
 
   @override
   void initState() {
     // TODO: implement initState
-    startCamera();
+    // startCamera();
+    cameraController = CameraController(
+      widget.cameras[0],
+      ResolutionPreset.max,
+      enableAudio: true,
+    );
+    cameraValue = cameraController.initialize();
     super.initState();
   }
 
@@ -50,9 +57,20 @@ class _CameraVideoDemoState extends State<CameraVideoDemo> {
     return Scaffold(
       body: Stack(
         children: [
-          Container(
-            height: double.infinity,
-              child: CameraPreview(cameraController)
+          FutureBuilder(
+            future: cameraValue,
+            builder: (context, snapshot) {
+              if(snapshot.connectionState == ConnectionState.done) {
+                return Container(
+                    height: double.infinity,
+                    child: CameraPreview(cameraController)
+                );
+              } else {
+                return const Center(
+                  child: CircularProgressIndicator(),
+                );
+              }
+            }
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
