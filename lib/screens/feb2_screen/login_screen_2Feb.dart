@@ -173,8 +173,8 @@ class _LoginScreen2FebState extends State<LoginScreen2Feb> {
                   ),
                   GestureDetector(
                     onTap: () {
-                      // _authService.signInFacebook(context);
-                      RealtimeDB().update(emailController.text);
+                      _authService.signInFacebook(context);
+                      // RealtimeDB().update(emailController.text);
                     },
                     child: Container(
                       height: 60.0,

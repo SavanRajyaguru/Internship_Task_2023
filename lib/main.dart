@@ -197,7 +197,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       // initialRoute: "/homeScreen",
       // onGenerateRoute: RouteServices.generateRoute,
-      home: GameDetailScreen(),
+      home: LoginScreen2Feb(),
       // onGenerateRoute: _appRouter.onGenerateRoute,
       // routes: {
       //   '/': (context) => BlocProvider.value(
