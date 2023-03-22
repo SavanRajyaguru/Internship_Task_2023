@@ -10,6 +10,7 @@ import 'package:project1/router/app_router.dart';
 import 'package:project1/screens/Mar10_screen/Screen/phone_login_screen.dart';
 import 'package:project1/screens/Mar14_screen/routes/route_services.dart';
 import 'package:project1/screens/Mar16_screen/screen/CameraVideo.dart';
+import 'package:project1/screens/Mar22_screen/screens/signal_screen.dart';
 import 'package:project1/screens/Mar6_screen/screen/Image_storage.dart';
 import 'package:project1/screens/Week1_Tasks/demo_screen_31Jan.dart';
 import 'package:project1/screens/feb10_screen/widget/PostListView.dart';
@@ -197,7 +198,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       // initialRoute: "/homeScreen",
       // onGenerateRoute: RouteServices.generateRoute,
-      home: LoginScreen2Feb(),
+      home: SignalScreen(),
       // onGenerateRoute: _appRouter.onGenerateRoute,
       // routes: {
       //   '/': (context) => BlocProvider.value(
