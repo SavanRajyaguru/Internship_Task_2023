@@ -1,22 +1,375 @@
 PODS:
+  - AppAuth (1.6.0):
+    - AppAuth/Core (= 1.6.0)
+    - AppAuth/ExternalUserAgent (= 1.6.0)
+  - AppAuth/Core (1.6.0)
+  - AppAuth/ExternalUserAgent (1.6.0):
+    - AppAuth/Core
+  - camera_avfoundation (0.0.1):
+    - Flutter
+  - DKImagePickerController/Core (4.3.4):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.3.4)
+  - DKImagePickerController/PhotoGallery (4.3.4):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.3.4)
+  - DKPhotoGallery (0.0.17):
+    - DKPhotoGallery/Core (= 0.0.17)
+    - DKPhotoGallery/Model (= 0.0.17)
+    - DKPhotoGallery/Preview (= 0.0.17)
+    - DKPhotoGallery/Resource (= 0.0.17)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - FBAEMKit (15.1.0):
+    - FBSDKCoreKit_Basics (= 15.1.0)
+  - FBSDKCoreKit (15.1.0):
+    - FBAEMKit (= 15.1.0)
+    - FBSDKCoreKit_Basics (= 15.1.0)
+  - FBSDKCoreKit_Basics (15.1.0)
+  - FBSDKLoginKit (15.1.0):
+    - FBSDKCoreKit (= 15.1.0)
+  - file_picker (0.0.1):
+    - DKImagePickerController/PhotoGallery
+    - Flutter
+  - Firebase/AnalyticsWithoutAdIdSupport (10.6.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics/WithoutAdIdSupport (~> 10.6.0)
+  - Firebase/Auth (10.6.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 10.6.0)
+  - Firebase/CoreOnly (10.6.0):
+    - FirebaseCore (= 10.6.0)
+  - Firebase/Database (10.6.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 10.6.0)
+  - Firebase/DynamicLinks (10.6.0):
+    - Firebase/CoreOnly
+    - FirebaseDynamicLinks (~> 10.6.0)
+  - Firebase/Messaging (10.6.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 10.6.0)
+  - Firebase/Storage (10.6.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (~> 10.6.0)
+  - firebase_analytics (10.1.6):
+    - Firebase/AnalyticsWithoutAdIdSupport (= 10.6.0)
+    - firebase_core
+    - Flutter
+  - firebase_auth (4.2.9):
+    - Firebase/Auth (= 10.6.0)
+    - firebase_core
+    - Flutter
+  - firebase_core (2.8.0):
+    - Firebase/CoreOnly (= 10.6.0)
+    - Flutter
+  - firebase_database (10.0.14):
+    - Firebase/Database (= 10.6.0)
+    - firebase_core
+    - Flutter
+  - firebase_dynamic_links (5.0.16):
+    - Firebase/DynamicLinks (= 10.6.0)
+    - firebase_core
+    - Flutter
+  - firebase_messaging (14.2.5):
+    - Firebase/Messaging (= 10.6.0)
+    - firebase_core
+    - Flutter
+  - firebase_storage (11.0.14):
+    - Firebase/Storage (= 10.6.0)
+    - firebase_core
+    - Flutter
+  - FirebaseAnalytics/WithoutAdIdSupport (10.6.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.6.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAppCheckInterop (10.6.0)
+  - FirebaseAuth (10.6.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+  - FirebaseAuthInterop (10.6.0)
+  - FirebaseCore (10.6.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Logger (~> 7.8)
+  - FirebaseCoreExtension (10.6.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseCoreInternal (10.6.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseDatabase (10.6.0):
+    - FirebaseCore (~> 10.0)
+    - leveldb-library (~> 1.22)
+  - FirebaseDynamicLinks (10.6.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseInstallations (10.6.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (10.6.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Reachability (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseStorage (10.6.0):
+    - FirebaseAppCheckInterop (~> 10.0)
+    - FirebaseAuthInterop (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseCoreExtension (~> 10.0)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
   - Flutter (1.0.0)
+  - flutter_facebook_auth (5.0.4):
+    - FBSDKLoginKit (~> 15.1.0)
+    - Flutter
+  - flutter_local_notifications (0.0.1):
+    - Flutter
+  - flutter_secure_storage (6.0.0):
+    - Flutter
+  - gallery_saver (0.0.1):
+    - Flutter
+  - google_sign_in_ios (0.0.1):
+    - Flutter
+    - GoogleSignIn (~> 6.2)
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.6.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleDataTransport (9.2.1):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleSignIn (6.2.4):
+    - AppAuth (~> 1.5)
+    - GTMAppAuth (~> 1.3)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.1)
+  - GoogleUtilities/AppDelegateSwizzler (7.11.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.11.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.11.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.11.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.11.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.11.0)"
+  - GoogleUtilities/Reachability (7.11.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.11.0):
+    - GoogleUtilities/Logger
+  - GTMAppAuth (1.3.1):
+    - AppAuth/Core (~> 1.6)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.5)
+  - GTMSessionFetcher/Core (2.3.0)
+  - image_gallery_saver (1.5.0):
+    - Flutter
   - image_picker_ios (0.0.1):
+    - Flutter
+  - leveldb-library (1.22.1)
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - PromisesObjC (2.2.0)
+  - SDWebImage (5.15.5):
+    - SDWebImage/Core (= 5.15.5)
+  - SDWebImage/Core (5.15.5)
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - SwiftyGif (5.4.4)
+  - url_launcher_ios (0.0.1):
     - Flutter
 
 DEPENDENCIES:
+  - camera_avfoundation (from `.symlinks/plugins/camera_avfoundation/ios`)
+  - file_picker (from `.symlinks/plugins/file_picker/ios`)
+  - firebase_analytics (from `.symlinks/plugins/firebase_analytics/ios`)
+  - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_database (from `.symlinks/plugins/firebase_database/ios`)
+  - firebase_dynamic_links (from `.symlinks/plugins/firebase_dynamic_links/ios`)
+  - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
+  - firebase_storage (from `.symlinks/plugins/firebase_storage/ios`)
   - Flutter (from `Flutter`)
+  - flutter_facebook_auth (from `.symlinks/plugins/flutter_facebook_auth/ios`)
+  - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
+  - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
+  - gallery_saver (from `.symlinks/plugins/gallery_saver/ios`)
+  - google_sign_in_ios (from `.symlinks/plugins/google_sign_in_ios/ios`)
+  - image_gallery_saver (from `.symlinks/plugins/image_gallery_saver/ios`)
   - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+    - DKImagePickerController
+    - DKPhotoGallery
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAppCheckInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreExtension
+    - FirebaseCoreInternal
+    - FirebaseDatabase
+    - FirebaseDynamicLinks
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FirebaseStorage
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleSignIn
+    - GoogleUtilities
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - leveldb-library
+    - nanopb
+    - PromisesObjC
+    - SDWebImage
+    - SwiftyGif
 
 EXTERNAL SOURCES:
+  camera_avfoundation:
+    :path: ".symlinks/plugins/camera_avfoundation/ios"
+  file_picker:
+    :path: ".symlinks/plugins/file_picker/ios"
+  firebase_analytics:
+    :path: ".symlinks/plugins/firebase_analytics/ios"
+  firebase_auth:
+    :path: ".symlinks/plugins/firebase_auth/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_database:
+    :path: ".symlinks/plugins/firebase_database/ios"
+  firebase_dynamic_links:
+    :path: ".symlinks/plugins/firebase_dynamic_links/ios"
+  firebase_messaging:
+    :path: ".symlinks/plugins/firebase_messaging/ios"
+  firebase_storage:
+    :path: ".symlinks/plugins/firebase_storage/ios"
   Flutter:
     :path: Flutter
+  flutter_facebook_auth:
+    :path: ".symlinks/plugins/flutter_facebook_auth/ios"
+  flutter_local_notifications:
+    :path: ".symlinks/plugins/flutter_local_notifications/ios"
+  flutter_secure_storage:
+    :path: ".symlinks/plugins/flutter_secure_storage/ios"
+  gallery_saver:
+    :path: ".symlinks/plugins/gallery_saver/ios"
+  google_sign_in_ios:
+    :path: ".symlinks/plugins/google_sign_in_ios/ios"
+  image_gallery_saver:
+    :path: ".symlinks/plugins/image_gallery_saver/ios"
   image_picker_ios:
     :path: ".symlinks/plugins/image_picker_ios/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
 
 SPEC CHECKSUMS:
+  AppAuth: 8fca6b5563a5baef2c04bee27538025e4ceb2add
+  camera_avfoundation: 3125e8cd1a4387f6f31c6c63abb8a55892a9eeeb
+  DKImagePickerController: b512c28220a2b8ac7419f21c491fc8534b7601ac
+  DKPhotoGallery: fdfad5125a9fdda9cc57df834d49df790dbb4179
+  FBAEMKit: c7f82b5145d446bcbbcd50485c032689032fc6a2
+  FBSDKCoreKit: 7542746fc63a2a38dd6a865eeb54268341f37b83
+  FBSDKCoreKit_Basics: 92d6b26c0bed30ab09bbdd96dccaa26e6c9978d1
+  FBSDKLoginKit: 4e275d30cf90e92bdf3a7c82857a8642abf23037
+  file_picker: ce3938a0df3cc1ef404671531facef740d03f920
+  Firebase: f13680471b021937f2230ea8503c7809d8c29806
+  firebase_analytics: 5374d45d99dc47f8c0bf37ab7027675aaf6ba0fa
+  firebase_auth: ade2a58f7ba3ed5c12494ad65a648da1bcbc34e4
+  firebase_core: 58542d7399889ebdbb034baa72d081e54c5c814d
+  firebase_database: 31b2281c4ccd17603f49ff7a7d2ff61fbaf5b057
+  firebase_dynamic_links: 2bbdeb2184aaf9cc952572c2981132c9471d2307
+  firebase_messaging: aace0061e3019eeeb18639af2b4d3bde3a3d4162
+  firebase_storage: 4fb057f5d3d2350cb4f1152cbc89e73c790eb926
+  FirebaseAnalytics: 9f382605c5ee412b039212f054bf7a403d9850c1
+  FirebaseAppCheckInterop: 13e5394346a811e7158cc136c01f10e3302a3514
+  FirebaseAuth: 743e5cd568af59d6d99a91ea9300843672515cf7
+  FirebaseAuthInterop: e407335bca1938d65c58db8f4ad14b3c1f862a82
+  FirebaseCore: fa80ad16a62d52f67274b5b88304c3a318bbf9a4
+  FirebaseCoreExtension: 318e5ee9ad4092b00423c2bddd51c3f5c3585973
+  FirebaseCoreInternal: c7cd505e2136811096b225ac388d6254a2622362
+  FirebaseDatabase: c3ab8f695e48d4c4431f8406b58ebe543be185d9
+  FirebaseDynamicLinks: 99c501143953e925681a37aade96bb2db34b30ca
+  FirebaseInstallations: 13dde135fa0524e15bddb133ccc8465c53a1b3f3
+  FirebaseMessaging: fd93783258c53ae5cdb9b41bf0c51606a677f2d5
+  FirebaseStorage: 10d4f43a4ef98e7554da72197ad52216686ea990
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_facebook_auth: c69f4e643b1d9cc9063ec87c9411bd9ec268108f
+  flutter_local_notifications: 0c0b1ae97e741e1521e4c1629a459d04b9aec743
+  flutter_secure_storage: 23fc622d89d073675f2eaa109381aefbcf5a49be
+  gallery_saver: 9fc173c9f4fcc48af53b2a9ebea1b643255be542
+  google_sign_in_ios: 63e49658400eb806dd30054dc56f8baee3025508
+  GoogleAppMeasurement: 686b48c3c895f3c55c70719041913d5d150b74f6
+  GoogleDataTransport: ea169759df570f4e37bdee1623ec32a7e64e67c4
+  GoogleSignIn: 5651ce3a61e56ca864160e79b484cd9ed3f49b7a
+  GoogleUtilities: c2bdc4cf2ce786c4d2e6b3bcfd599a25ca78f06f
+  GTMAppAuth: 0ff230db599948a9ad7470ca667337803b3fc4dd
+  GTMSessionFetcher: 3a63d75eecd6aa32c2fc79f578064e1214dfdec2
+  image_gallery_saver: 259eab68fb271cfd57d599904f7acdc7832e7ef2
   image_picker_ios: b786a5dcf033a8336a657191401bfdf12017dabb
+  leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  path_provider_foundation: c68054786f1b4f3343858c1e1d0caaded73f0be9
+  PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
+  SDWebImage: fd7e1a22f00303e058058278639bf6196ee431fe
+  shared_preferences_foundation: 297b3ebca31b34ec92be11acd7fb0ba932c822ca
+  SwiftyGif: 93a1cc87bf3a51916001cf8f3d63835fb64c819f
+  url_launcher_ios: fb12c43172927bb5cf75aeebd073f883801f1993
 
-PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
+PODFILE CHECKSUM: a0f10959b5b6cbdedf82ab735608156892b41a54
 
 COCOAPODS: 1.11.3

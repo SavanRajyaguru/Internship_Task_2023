@@ -2,6 +2,73 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <!-- Put me in the [my_project]/ios/Runner/Info.plist file -->
+    <!-- Facebook Sign-in Section -->
+       <key>CFBundleURLTypes</key>
+        <array>
+          <dict>
+              <key>CFBundleURLSchemes</key>
+                  <array>
+                    <string>fb989079388741849</string>
+                  </array>
+          </dict>
+          <dict>
+              <key>CFBundleTypeRole</key>
+              <string>Editor</string>
+              <key>CFBundleURLSchemes</key>
+              <array>
+                  <string>com.googleusercontent.apps.572121212121-axxxxp6vaaaadc06aaaaaacd4d7lbnc</string>
+              </array>
+          </dict>
+        </array>
+
+        <key>FacebookAppID</key>
+        <string>989079388741849</string>
+
+        <key>FacebookClientToken</key>
+        <string>5dae2737f6606b1c7b8a9e6a12e146d7</string>
+
+        <key>FacebookDisplayName</key>
+        <string>fbInternshipTask</string>
+
+
+        <key>LSApplicationQueriesSchemes</key>
+        <array>
+          <string>fbapi</string>
+          <string>fb-messenger-share-api</string>
+          <string>fbauth2</string>
+          <string>fbshareextension</string>
+        </array>
+        <!-- End of the Facebook Sign-in Section -->
+
+    <!-- Google Sign-in Section -->
+    <key>CFBundleURLTypes</key>
+    <array>
+    	<dict>
+    		<key>CFBundleTypeRole</key>
+    		<string>Editor</string>
+    		<key>CFBundleURLSchemes</key>
+    		<array>
+    			<!-- TODO Replace this value: -->
+    			<!-- Copied from GoogleService-Info.plist key REVERSED_CLIENT_ID -->
+    			<string>com.googleusercontent.apps.621653394482-ckmnedvjav1c4qop26fiqj050ctk9cjd</string>
+    		</array>
+    	</dict>
+    </array>
+    <!-- End of the Google Sign-in Section -->
+
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>sms</string>
+      <string>tel</string>
+      <string>whatsapp</string>
+      <string>http</string>
+      <string>https</string>
+    </array>
+    <key>NSCameraUsageDescription</key>
+    <string>your usage description here</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>your usage description here</string>
     <key>NSPhotoLibraryUsageDescription</key>
     <string>Upload images for screen background</string>
     <key>NSCameraUsageDescription</key>
